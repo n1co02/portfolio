@@ -15,10 +15,15 @@ export default function Experiences() {
   //custom hook doesnt work, still try to figure out why.
   //const { ref } = useSectionInView('Experience')
   const { ref, inView } = useInView({
+    threshold: 0.75,
     triggerOnce: true,
   })
   return (
-    <section id='experience' ref={ref}>
+    <section
+      id='experience'
+      ref={ref}
+      className={experiencesStyles.sectionStyle}
+    >
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor=''>
         {experiencesData.map((item, index) => (
