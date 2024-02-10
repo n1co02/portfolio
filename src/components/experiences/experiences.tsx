@@ -9,6 +9,7 @@ import 'react-vertical-timeline-component/style.min.css'
 import { experiencesData } from '@/lib/data'
 import { useSectionInView } from '@/lib/hooks'
 import { useInView } from 'react-intersection-observer'
+import * as experiencesStyles from './experiencesStyles'
 
 export default function Experiences() {
   //custom hook doesnt work, still try to figure out why.
@@ -41,9 +42,9 @@ export default function Experiences() {
                 color: '1.5rem',
               }}
             >
-              <h3 className='font-semibold capitalize'>{item.title}</h3>
-              <p className='font-normal !mt-0'>{item.location}</p>
-              <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>
+              <h3 className={experiencesStyles.h3Style}>{item.title}</h3>
+              <p className={experiencesStyles.itemLocation}>{item.location}</p>
+              <p className={experiencesStyles.itemDescription}>
                 {item.description}
               </p>
             </VerticalTimelineElement>
