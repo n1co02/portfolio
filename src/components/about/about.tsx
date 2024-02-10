@@ -49,7 +49,7 @@ export default function About() {
         . This diverse exposure allows me to stay adaptable and continuously
         expand my skill set. I'm also familiar with{' '}
         <span className={aboutStyles.spanFontMediumStyle}>
-          TypeScript, Prisma
+          TypeScript, Prisma, SQL
         </span>{' '}
         and <span className={aboutStyles.spanFontMediumStyle}>MongoDB</span>,
         keeping me well-versed in both front-end and back-end development
