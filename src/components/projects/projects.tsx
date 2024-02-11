@@ -4,8 +4,8 @@ import SectionHeading from '../sectionHandler/sectionHeading/sectionHeading'
 import { projectsData } from '@/lib/data'
 import Project from './projectClient'
 import { useSectionInView } from '@/lib/hooks'
-export default function projects() {
-  const { ref } = useSectionInView('Projects', 0.5)
+export default function Projects() {
+  const { ref } = useSectionInView('Projects', 0.2)
 
   return (
     <section ref={ref} id='projects' className=' scroll-mt-28 mb-28'>
