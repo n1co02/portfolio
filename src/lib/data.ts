@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       'Right now, I am writing my Bachelorthesis in corporation with the Heitec AG. The title is "Optimization of the Development Workflow in Web Development through Code Generation and Open API"',
     icon: React.createElement(MdScience),
-    date: 'February 2023 - March 2024',
+    date: 'March 2024 - June 2024',
   },
   {
     title: 'Working student as a Full-Stack Developer',
