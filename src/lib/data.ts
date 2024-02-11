@@ -1,6 +1,6 @@
 import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
-import { FaReact } from 'react-icons/fa'
+import { MdScience, MdWork } from 'react-icons/md'
 import { LuGraduationCap } from 'react-icons/lu'
 import corpcommentImg from '../../public/corpcomment.png'
 import rmtdevImg from '../../public/rmtdev.png'
@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Bachelorthesis',
+    location: 'Crailsheim, Germany',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
+      'Right now, I am writing my Bachelorthesis in corporation with the Heitec AG. The title is "Optimization of the Development Workflow in Web Development through Code Generation and Open API"',
+    icon: React.createElement(MdScience),
+    date: 'February 2023 - March 2024',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Working student as a Full-Stack Developer',
+    location: 'Crailsheim, Germany',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'After my Internship I worked as a Full-stack for the Heitec AG on internal products. My tech stack was Angular, Node.js (Express), Neo4J and Docker.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: 'February 2023 - March 2024',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Internship as a Web-Developer',
+    location: 'Crailsheim, Germany',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'I did an internship as a Web-developer at the Heitec AG. I worked on a project for Daimler-Truck. I was the back-end developer. It has features like filtering, sorting and CRUD. I used C#, .NET, SQL and Open API.',
+    icon: React.createElement(MdWork),
+    date: 'September2022 - January 2023',
+  },
+  {
+    title: 'Enrolled in University',
+    location: 'Aalen, Germany',
+    description:
+      'After finishing my matura, I enrolled in university to study computer science.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'September 2020',
   },
 ] as const
 
@@ -92,16 +100,12 @@ export const skillsData = [
   'React',
   'Next.js',
   'Node.js',
+  'Express',
+  'Docker',
   'Git',
   'Tailwind',
   'Prisma',
   'MongoDB',
   'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
-  'Framer Motion',
+  'SQL',
 ] as const
