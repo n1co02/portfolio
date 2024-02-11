@@ -7,17 +7,14 @@ import {
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import { experiencesData } from '@/lib/data'
-import { useSectionInView } from '@/lib/hooks'
-import { useInView } from 'react-intersection-observer'
+import { useTheme } from '@/context/themeContext'
 import * as experiencesStyles from './experiencesStyles'
+import { useSectionInView } from '@/lib/hooks'
 
 export default function Experiences() {
-  //custom hook doesnt work, still try to figure out why.
-  //const { ref } = useSectionInView('Experience')
-  const { ref, inView } = useInView({
-    threshold: 0.75,
-    triggerOnce: true,
-  })
+  const { ref, inView } = useSectionInView('Experience')
+  const { theme } = useTheme()
+
   return (
     <section
       id='experience'
@@ -31,19 +28,24 @@ export default function Experiences() {
             <VerticalTimelineElement
               visible={inView}
               contentStyle={{
-                background: '#f3f4f6',
+                background:
+                  theme === 'light' ? '#f3f4f6' : 'rgba(255, 255, 255, 0.05)',
                 boxShadow: 'none',
                 border: '1px solid rgba(0, 0, 0, 0.05)',
                 textAlign: 'left',
                 padding: '1.3rem 2rem',
               }}
               contentArrowStyle={{
-                borderRight: '04.rem solid #f3f4f6',
+                borderRight:
+                  theme === 'light'
+                    ? '0.4rem solid #9ca3af'
+                    : '0.4rem solid rgba(255, 255, 255, 0.5)',
               }}
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background: 'white',
+                background:
+                  theme === 'light' ? 'white' : 'rgba(255, 255, 255, 0.15)',
                 color: '1.5rem',
               }}
             >
