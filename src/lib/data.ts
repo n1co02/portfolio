@@ -122,6 +122,7 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Next.js',
+  'Angular',
   'Node.js',
   'Express',
   'Docker',
