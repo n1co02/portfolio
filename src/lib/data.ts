@@ -2,10 +2,12 @@ import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { MdScience, MdWork } from 'react-icons/md'
 import { LuGraduationCap } from 'react-icons/lu'
-import corpcommentImg from '../../public/corpcomment.png'
-import rmtdevImg from '../../public/rmtdev.png'
-import wordanalyticsImg from '../../public/wordanalytics.png'
-
+import vrGameImg from '../../public/vr-game.png'
+import aelianasJourney from '../../public/aelianasJourney.png'
+import arRaceCar from '../../public/arRaceCar.png'
+import quotes from '../../public/quotes.png'
+import digiBrain from '../../public/digiBrain.png'
+import eLearningApp from '../../public/softwareProject.jpg'
 export const links = [
   {
     name: 'Home',
@@ -70,25 +72,46 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Graveyard Shooter',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      'We worked as a group to create a dynamic singleplayer VR shooter game in university. We included animations, movement, shooting and a scoring system. ',
+    tags: ['Unity', 'C#', 'Blender', 'VR'],
+    imageUrl: vrGameImg,
   },
   {
-    title: 'rmtDev',
+    title: 'Aelianas Journey',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'We worked as a group to create a unity 2D jump and run game called Aelianas Journey. A leaderboard was included, to have a competitive aspect.',
+    tags: ['Unity', 'C#', 'Firebase', '2D'],
+    imageUrl: aelianasJourney,
   },
   {
-    title: 'Word Analytics',
+    title: 'AR-Race Car',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'A Unity AR mobile app with 2 modes. One mode used the camera of the car and received a stream with tcp, the other one included AR features. I worked on the mobile part. The embedded part was done with python',
+    tags: ['Unity', 'C#', 'AR', 'TCP'],
+    imageUrl: arRaceCar,
+  },
+  {
+    title: 'Quote',
+    description:
+      'A Next.js website for a friend to move on from a word document. It includes CRUD operations, a login system, a responsive design, darkmode and live updates. Deployed on Vercel.',
+    tags: ['Next.js', 'React', 'Typescript', 'Tailwind', 'Redux', 'Firebase'],
+    imageUrl: quotes,
+  },
+  {
+    title: 'DigiBrain',
+    description:
+      'A React website for group Brainstorming. It included a login System, CRUD operations, live updates and the GPT API. I was part of the backend team with Express.js',
+    tags: ['Node.js', 'Express', 'Typescript', 'MongoDB', 'SQLite', 'Prisma'],
+    imageUrl: digiBrain,
+  },
+  {
+    title: 'Software Project',
+    description:
+      'A React Native mobile app for E-learning. It included a single learning mode, for english (vocabularies) and a virtual classroom where multiple people answer the same question simultaneously.',
+    tags: ['React Native', 'Expo', 'Typescript', 'Firebase'],
+    imageUrl: eLearningApp,
   },
 ] as const
 
