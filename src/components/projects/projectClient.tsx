@@ -10,6 +10,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
@@ -24,6 +25,7 @@ export default function Project({
       ref={ref}
       style={{ scale: scaleProgress, opacity: opacityProgress }}
       className={projectStyles.motionDivStyle}
+      onClick={() => window.open(link, '_blank')}
     >
       <section className={projectStyles.sectionStyle}>
         <div className={projectStyles.divStyle}>
