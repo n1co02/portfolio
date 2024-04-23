@@ -56,7 +56,7 @@ export default function Intro() {
         <span className={introStyles.boldSpanStyle}>Hello, I'm Nicolas.</span>{' '}
         I'm a{' '}
         <span className={introStyles.boldSpanStyle}>full-stack developer</span>{' '}
-        with <span className={introStyles.boldSpanStyle}>1 year</span> of
+        with <span className={introStyles.boldSpanStyle}>2 year</span> of
         experience. I enjoy building{' '}
         <span className={introStyles.italicSpanStyle}>sites & apps</span>. My
         focus is{' '}
