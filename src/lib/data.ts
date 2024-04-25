@@ -85,7 +85,7 @@ export const projectsData = [
       'A Next.js website for a friend to move on from a word document. It includes CRUD operations, a login system, a responsive design, darkmode and live updates. Deployed on Vercel.',
     tags: ['Next.js', 'React', 'Typescript', 'Tailwind', 'Redux', 'Firebase'],
     imageUrl: quotes,
-    link: 'quote-kappa.vercel.app',
+    link: 'https://flaviasquotes.com',
   },
   {
     title: 'E-Learning Project',
