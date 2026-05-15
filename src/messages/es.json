@@ -14,5 +14,41 @@
     "paragraph3": "Antes de unirme a BARMER, trabajé como desarrollador full-stack en Heitec AG, donde contribuí a aplicaciones web internas y sistemas backend. Mi tesis de licenciatura se centró en desarrollar un generador de código Angular basado en OpenAPI para optimizar flujos de desarrollo.",
     "paragraph4": "Disfruto trabajar en arquitecturas escalables, herramientas para desarrolladores y experiencias de usuario limpias. Además del desarrollo móvil, me interesan la arquitectura de software, los flujos de desarrollo asistidos por IA, la ingeniería de seguridad y los ecosistemas modernos de frontend.",
     "paragraph5": "Fuera de la programación, disfruto hacer deporte, viajar y aprender idiomas. Actualmente hablo alemán, inglés y español y continúo mejorando mis habilidades lingüísticas y técnicas."
+  },
+  "projects": {
+    "digiBrain": {
+      "title": "DigiBrain",
+      "description": "Un sitio web en React para brainstorming en grupo. Incluía un sistema de inicio de sesión, CRUD, actualizaciones en tiempo real y la API de GPT. Formé parte del equipo backend usando Express.js."
+    },
+
+    "quote": {
+      "title": "Quote",
+      "description": "Un Next.js webapp para ayudar a una amiga a dejar de usar un documento Word. Incluye operaciones CRUD, diseño responsive, modo oscuro y actualizaciones en tiempo real."
+    },
+
+    "eLearning": {
+      "title": "Proyecto E-Learning",
+      "description": "Una aplicación móvil en React Native para e-learning. Incluía un modo de aprendizaje individual para vocabulario y un aula virtual donde varias personas podían aprender juntas en tiempo real."
+    },
+
+    "graveyardShooter": {
+      "title": "Graveyard Shooter",
+      "description": "Un proyecto universitario en grupo donde desarrollamos un juego VR shooter para un solo jugador con animaciones, movimiento, mecánicas de disparo y un sistema de puntuación."
+    },
+
+    "arRaceCar": {
+      "title": "AR-Race Car",
+      "description": "Una aplicación móvil AR en Unity con dos modos. Un modo utilizaba la transmisión de cámara del coche mediante TCP, mientras que el otro incluía funcionalidades de realidad aumentada."
+    },
+
+    "aelianasJourney": {
+      "title": "Aelianas Journey",
+      "description": "Un proyecto universitario en grupo donde desarrollamos un juego 2D de plataformas en Unity. Se incluyó un sistema de clasificación para añadir un aspecto competitivo."
+    },
+
+    "codeGenerator": {
+      "title": "Generador de código",
+      "description": "Tesis: una herramienta de generación de código basada en OpenAPI para optimizar flujos de desarrollo. El enfoque estuvo en generar código de definiciones de API."
+    }
   }
 }

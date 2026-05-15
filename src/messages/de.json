@@ -14,5 +14,41 @@
     "paragraph3": "Vor meiner Zeit bei der BARMER arbeitete ich als Full-Stack-Entwickler bei Heitec AG, wo ich an internen Webanwendungen und Backend-Systemen mitgewirkt habe. Meine Bachelorarbeit konzentrierte sich auf die Entwicklung eines OpenAPI-basierten Angular-Codegenerators zur Optimierung von Entwicklungsprozessen.",
     "paragraph4": "Ich arbeite gerne an skalierbaren Architekturen, Developer Tooling und sauberen User Experiences. Neben der Mobile-Entwicklung interessieren mich Softwarearchitektur, KI-gestützte Entwicklungsworkflows, Security Engineering und moderne Frontend-Ökosysteme.",
     "paragraph5": "Außerhalb des Programmierens interessiere ich mich für Sport, Reisen und Sprachenlernen. Aktuell spreche ich Deutsch, Englisch und Spanisch und arbeite kontinuierlich daran, meine sprachlichen und technischen Fähigkeiten weiterzuentwickeln."
+  },
+  "projects": {
+    "digiBrain": {
+      "title": "DigiBrain",
+      "description": "Eine React-Webseite für Gruppen-Brainstorming. Sie beinhaltete ein Login-System, CRUD-Operationen, Live-Updates und die GPT-API. Ich war Teil des Backend-Teams mit Express.js."
+    },
+
+    "quote": {
+      "title": "Quote",
+      "description": "Eine Next.js-Webseite für eine Freundin, um von einem Word-Dokument wegzukommen. Sie beinhaltet CRUD-Operationen, ein Login-System, responsives Design, Dark Mode und Live-Updates. Deployt auf Vercel."
+    },
+
+    "eLearning": {
+      "title": "E-Learning Projekt",
+      "description": "Eine React-Native-Mobile-App für E-Learning. Sie beinhaltete einen Lernmodus für englische Vokabeln sowie einen virtuellen Klassenraum, in dem mehrere Personen in Echtzeit gemeinsam lernen konnten."
+    },
+
+    "graveyardShooter": {
+      "title": "Graveyard Shooter",
+      "description": "Ein Universitäts-Gruppenprojekt, bei dem wir einen dynamischen Singleplayer-VR-Shooter mit Animationen, Bewegung, Schussmechaniken und einem Punktesystem entwickelt haben."
+    },
+
+    "arRaceCar": {
+      "title": "AR-Race Car",
+      "description": "Eine Unity-AR-Mobile-App mit zwei Modi. Ein Modus nutzte den Kamerastream des Autos über TCP, während der andere AR-Funktionalitäten beinhaltete. Ich arbeitete an der Mobile-App, während das Embedded-System mit Python entwickelt wurde."
+    },
+
+    "aelianasJourney": {
+      "title": "Aelianas Journey",
+      "description": "Ein Universitäts-Gruppenprojekt, bei dem wir ein 2D-Jump-and-Run-Spiel in Unity entwickelt haben. Ein Leaderboard-System sorgte zusätzlich für einen kompetitiven Aspekt."
+    },
+
+    "codeGenerator": {
+      "title": "OpenAPI-basierter Codegenerator",
+      "description": "Bachelorarbeit: Ein Codegenerierungstool basierend auf OpenAPI zur Optimierung von Entwicklungsworkflows. Der Fokus lag auf der Generierung wiederverwendbarer Frontend-Komponenten aus API-Spezifikationen."
+    }
   }
 }

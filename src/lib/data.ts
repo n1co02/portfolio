@@ -8,6 +8,7 @@ import arRaceCar from '../../public/arRaceCar.png'
 import quotes from '../../public/quotes.png'
 import digiBrain from '../../public/digiBrain.png'
 import eLearningApp from '../../public/softwareProject.jpg'
+import codegenerator from '../../public/codegenerator.png'
 
 export const links = [
   {
@@ -73,55 +74,55 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'DigiBrain',
-    description:
-      'A React website for group Brainstorming. It included a login System, CRUD operations, live updates and the GPT API. I was part of the backend team with Express.js',
+    titleKey: 'digiBrain.title',
+    descriptionKey: 'digiBrain.description',
     tags: ['Node.js', 'Express', 'Typescript', 'MongoDB', 'SQLite', 'Prisma'],
     imageUrl: digiBrain,
     link: 'https://github.com/n1co02/digi_brain',
   },
   {
-    title: 'Quote',
-    description:
-      'A Next.js website for a friend to move on from a word document. It includes CRUD operations, a login system, a responsive design, darkmode and live updates. Deployed on Vercel.',
+    titleKey: 'quote.title',
+    descriptionKey: 'quote.description',
     tags: ['Next.js', 'React', 'Typescript', 'Tailwind', 'Redux', 'Firebase'],
     imageUrl: quotes,
-    link: 'https://flaviasquotes.com',
+    link: 'https://quote-kappa.vercel.app/',
   },
   {
-    title: 'E-Learning Project',
-    description:
-      'A React Native mobile app for E-learning. It included a single learning mode, for english (vocabularies) and a virtual classroom multiple people, learning in realtime.',
+    titleKey: 'eLearning.title',
+    descriptionKey: 'eLearning.description',
     tags: ['React Native', 'Expo', 'Typescript', 'Firebase'],
     imageUrl: eLearningApp,
     link: 'https://github.com/n1co02/projektarbeit',
   },
   {
-    title: 'Graveyard Shooter',
-    description:
-      'We worked as a group to create a dynamic singleplayer VR shooter game in university. We included animations, movement, shooting and a scoring system. ',
+    titleKey: 'graveyardShooter.title',
+    descriptionKey: 'graveyardShooter.description',
     tags: ['Unity', 'C#', 'Blender', 'VR'],
     imageUrl: vrGameImg,
     link: 'https://github.com/n1co02/Virtual_Reality',
   },
   {
-    title: 'AR-Race Car',
-    description:
-      'A Unity AR mobile app with 2 modes. One mode used the camera of the car and received a stream with tcp, the other one included AR features. I worked on the mobile part. The embedded part was done with python',
+    titleKey: 'arRaceCar.title',
+    descriptionKey: 'arRaceCar.description',
     tags: ['Unity', 'C#', 'AR', 'TCP'],
     imageUrl: arRaceCar,
     link: 'https://github.com/n1co02/AR_Race_Car',
   },
   {
-    title: 'Aelianas Journey',
-    description:
-      'We worked as a group to create a unity 2D jump and run game called Aelianas Journey. A leaderboard was included, to have a competitive aspect.',
+    titleKey: 'aelianasJourney.title',
+    descriptionKey: 'aelianasJourney.description',
     tags: ['Unity', 'C#', 'Firebase', '2D'],
     imageUrl: aelianasJourney,
     link: 'https://github.com/n1co02/Aeliana-s-journey',
   },
+  {
+    titleKey: 'codeGenerator.title',
+    descriptionKey: 'codeGenerator.description',
+    tags: ['TypeScript', 'Angular', 'Node.js', 'OpenAPI'],
+    imageUrl: codegenerator,
+    link: 'https://github.com/n1co02/code_generation_angular',
+  },
 ] as const
-
 export const skillsData = [
   'React Native',
   'TypeScript',

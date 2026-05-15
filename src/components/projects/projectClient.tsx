@@ -4,10 +4,13 @@ import { projectsData } from '@/lib/data'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import * as projectStyles from './projectsStyle'
+import { useTranslations } from 'next-intl'
+
 type ProjectProps = (typeof projectsData)[number]
+
 export default function Project({
-  title,
-  description,
+  titleKey,
+  descriptionKey,
   tags,
   imageUrl,
   link,
@@ -20,6 +23,8 @@ export default function Project({
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1])
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1])
 
+  const t = useTranslations('projects')
+
   return (
     <motion.div
       ref={ref}
@@ -29,8 +34,8 @@ export default function Project({
     >
       <section className={projectStyles.sectionStyle}>
         <div className={projectStyles.divStyle}>
-          <h3 className={projectStyles.h3Style}>{title}</h3>
-          <p className={projectStyles.pStyle}>{description}</p>
+          <h3 className={projectStyles.h3Style}>{t(titleKey)}</h3>
+          <p className={projectStyles.pStyle}>{t(descriptionKey)}</p>
           <ul className={projectStyles.ulStyle}>
             {tags.map((tag, index) => (
               <li className={projectStyles.liStyle} key={index}>
