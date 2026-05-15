@@ -83,5 +83,14 @@
       "location": "Aalen, Germany",
       "description": "Started studying Computer Science with a specialization in Software Engineering at Aalen University."
     }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "If you want to get in touch with me, you can reach me at",
+    "formHint": "or through this form.",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "successToast": "Email sent successfully!",
+    "submit": "Submit"
   }
 }

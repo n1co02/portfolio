@@ -83,5 +83,14 @@
       "location": "Aalen, Alemania",
       "description": "Comencé mis estudios de Ciencias de la Computación con especialización en Ingeniería de Software en la Universidad de Aalen."
     }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si quieres ponerte en contacto conmigo, puedes escribirme a",
+    "formHint": "o usar este formulario.",
+    "emailPlaceholder": "Tu correo electrónico",
+    "messagePlaceholder": "Tu mensaje",
+    "successToast": "¡Correo enviado correctamente!",
+    "submit": "Enviar"
   }
 }

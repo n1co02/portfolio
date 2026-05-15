@@ -83,5 +83,14 @@
       "location": "Aalen, Deutschland",
       "description": "Beginn des Informatikstudiums mit Schwerpunkt Software Engineering an der Hochschule Aalen."
     }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Wenn du mit mir in Kontakt treten möchtest, erreichst du mich unter",
+    "formHint": "oder über dieses Formular.",
+    "emailPlaceholder": "Deine E-Mail",
+    "messagePlaceholder": "Deine Nachricht",
+    "successToast": "E-Mail erfolgreich gesendet!",
+    "submit": "Absenden"
   }
 }
