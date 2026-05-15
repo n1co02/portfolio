@@ -6,5 +6,13 @@
     "Skills": "Skills",
     "Experience": "Erfahrung",
     "Contact": "Kontakt"
+  },
+  "about": {
+    "title": "Über mich",
+    "paragraph1": "Ich bin Mobile Software Developer aus Deutschland mit einem starken Fokus auf React Native, TypeScript und Swift. Meinen Bachelor in Informatik mit Schwerpunkt Software Engineering habe ich an der Hochschule Aalen abgeschlossen und arbeite aktuell bei der BARMER, wo ich an einer der größten Healthcare-Apps Deutschlands mitwirke.",
+    "paragraph2": "Zu meiner Arbeit gehören die Entwicklung und Wartung plattformübergreifender Mobile-Features, die Integration nativer iOS-Komponenten mit Swift, die Erstellung automatisierter Tests mit Jest und Pytest sowie die Analyse von App-Abstürzen und Incidents mit Sentry. Außerdem beschäftige ich mich mit Dependency-Management, Software-Updates und sicherheitsrelevanten Themen im modernen Mobile-Umfeld.",
+    "paragraph3": "Vor meiner Zeit bei der BARMER arbeitete ich als Full-Stack-Entwickler bei Heitec AG, wo ich an internen Webanwendungen und Backend-Systemen mitgewirkt habe. Meine Bachelorarbeit konzentrierte sich auf die Entwicklung eines OpenAPI-basierten Angular-Codegenerators zur Optimierung von Entwicklungsprozessen.",
+    "paragraph4": "Ich arbeite gerne an skalierbaren Architekturen, Developer Tooling und sauberen User Experiences. Neben der Mobile-Entwicklung interessieren mich Softwarearchitektur, KI-gestützte Entwicklungsworkflows, Security Engineering und moderne Frontend-Ökosysteme.",
+    "paragraph5": "Außerhalb des Programmierens interessiere ich mich für Sport, Reisen und Sprachenlernen. Aktuell spreche ich Deutsch, Englisch und Spanisch und arbeite kontinuierlich daran, meine sprachlichen und technischen Fähigkeiten weiterzuentwickeln."
   }
 }

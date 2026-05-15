@@ -6,5 +6,13 @@
     "Skills": "Skills",
     "Experience": "Experience",
     "Contact": "Contact"
+  },
+  "about": {
+    "title": "About me",
+    "paragraph1": "I'm a mobile software developer from Germany with a strong focus on React Native, TypeScript and Swift. I completed my B.Sc. in Computer Science (Software Engineering) at Aalen University and currently work at BARMER, contributing to one of Germany's largest healthcare applications.",
+    "paragraph2": "My work includes developing and maintaining cross-platform mobile features, integrating native iOS components with Swift, creating automated tests with Jest and Pytest, and analyzing application crashes and incidents using Sentry. I'm also involved in dependency management, software updates and security-related topics within modern mobile applications.",
+    "paragraph3": "Before joining BARMER, I worked as a full-stack developer at Heitec AG, where I contributed to internal web applications and backend systems. My bachelor thesis focused on building an OpenAPI-based Angular code generator to optimize development workflows.",
+    "paragraph4": "I enjoy working on scalable architectures, developer tooling and clean user experiences. Beyond mobile development, I'm interested in software architecture, AI-assisted development workflows, security engineering and modern frontend ecosystems.",
+    "paragraph5": "Outside of programming, I enjoy sports, traveling and learning languages. I currently speak German, English and Spanish and continuously work on improving my language skills and technical expertise."
   }
 }
