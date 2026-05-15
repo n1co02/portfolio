@@ -9,11 +9,13 @@ import { FaGithubSquare } from 'react-icons/fa'
 import * as introStyles from './introStyles' // Assuming introStyleintroStyles.tsx is in the same directory
 import { useActiveSectionContext } from '@/context/activeSectionContext'
 import { useSectionInView } from '@/lib/hooks'
+import { useTranslations } from 'next-intl'
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5)
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
+  const t = useTranslations('intro')
   return (
     <section ref={ref} id='home' className={introStyles.sectionStyle}>
       <div className={introStyles.imageContainerStyle}>
@@ -53,21 +55,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
+        <span className={introStyles.boldSpanStyle}>{t('hello')}</span>{' '}
+        {t('description1')}{' '}
         <span className={introStyles.boldSpanStyle}>
-          Hello, I&apos;m Nicolas.
+          {t('mobileDeveloper')}
         </span>{' '}
-        I&apos;m a{' '}
-        <span className={introStyles.boldSpanStyle}>
-          mobile software developer
-        </span>{' '}
-        focused on{' '}
-        <span className={introStyles.italicSpanStyle}>
-          React Native, Swift & TypeScript
-        </span>
-        . I build cross-platform mobile applications with a strong interest in{' '}
-        <span className={introStyles.underlineSpanStyle}>
-          mobile architecture, developer tooling & security
-        </span>
+        {t('description2')}{' '}
+        <span className={introStyles.italicSpanStyle}>{t('techStack')}</span>.{' '}
+        {t('description3')}{' '}
+        <span className={introStyles.underlineSpanStyle}>{t('interests')}</span>
         .
       </motion.h1>
       <motion.div
@@ -84,11 +80,11 @@ export default function Intro() {
             setTimeOfLastClick(Date.now())
           }}
         >
-          Contact me here{' '}
+          {t('contactButton')}{' '}
           <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
         </Link>
         <a className={introStyles.downloadCVLinkStyle} href='/CV.pdf' download>
-          Download CV{' '}
+          {t('downloadCV')}{' '}
           <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
         </a>
         <a

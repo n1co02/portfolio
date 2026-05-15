@@ -7,6 +7,17 @@
     "Experience": "Erfahrung",
     "Contact": "Kontakt"
   },
+  "intro": {
+    "hello": "Hallo, ich bin Nicolas.",
+    "description1": "Ich bin",
+    "mobileDeveloper": "Mobile Software Developer",
+    "description2": "mit Fokus auf",
+    "techStack": "React Native, Swift & TypeScript",
+    "description3": "Ich entwickle plattformübergreifende Mobile-Apps mit großem Interesse an",
+    "interests": "Mobile-Architektur, Developer Tooling & Security",
+    "contactButton": "Kontaktiere mich",
+    "downloadCV": "CV herunterladen"
+  },
   "about": {
     "title": "Über mich",
     "paragraph1": "Ich bin Mobile Software Developer aus Deutschland mit einem starken Fokus auf React Native, TypeScript und Swift. Meinen Bachelor in Informatik mit Schwerpunkt Software Engineering habe ich an der Hochschule Aalen abgeschlossen und arbeite aktuell bei der BARMER, wo ich an einer der größten Healthcare-Apps Deutschlands mitwirke.",
@@ -48,7 +59,7 @@
 
     "codeGenerator": {
       "title": "OpenAPI-basierter Codegenerator",
-      "description": "Bachelorarbeit: Ein Codegenerierungstool basierend auf OpenAPI zur Optimierung von Entwicklungsworkflows. Der Fokus lag auf der Generierung wiederverwendbarer Frontend-Komponenten aus API-Spezifikationen."
+      "description": "Ein Codegenerierungtor zur Optimierung von Entwicklungsworkflows. Ziel war die Generierung von Komponenten aus API-Spezifikationen."
     }
   },
   "skills": { "title": "Meine Skills" },

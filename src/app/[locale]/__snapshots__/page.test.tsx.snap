@@ -45,30 +45,32 @@ exports[`Home matches snapshot 1`] = `
         <span
           class="font-bold"
         >
-          Hello, I'm Nicolas.
+          hello
         </span>
          
-        I'm a
+        description1
          
         <span
           class="font-bold"
         >
-          mobile software developer
+          mobileDeveloper
         </span>
          
-        focused on
+        description2
          
         <span
           class="italic"
         >
-          React Native, Swift & TypeScript
+          techStack
         </span>
-        . I build cross-platform mobile applications with a strong interest in
+        .
+         
+        description3
          
         <span
           class="underline"
         >
-          mobile architecture, developer tooling & security
+          interests
         </span>
         .
       </h1>
@@ -80,7 +82,7 @@ exports[`Home matches snapshot 1`] = `
           class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           href="#contact"
         >
-          Contact me here
+          contactButton
            
           <svg
             class="opacity-70 group-hover:translate-x-1 transition"
@@ -103,7 +105,7 @@ exports[`Home matches snapshot 1`] = `
           download=""
           href="/CV.pdf"
         >
-          Download CV
+          downloadCV
            
           <svg
             aria-hidden="true"

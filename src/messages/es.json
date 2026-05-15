@@ -7,6 +7,17 @@
     "Experience": "Experiencia",
     "Contact": "Contacto"
   },
+  "intro": {
+    "hello": "Hola, soy Nicolas.",
+    "description1": "Soy",
+    "mobileDeveloper": "desarrollador de software móvil",
+    "description2": "enfocado en",
+    "techStack": "React Native, Swift y TypeScript",
+    "description3": "Desarrollo aplicaciones móviles multiplataforma con gran interés en",
+    "interests": "arquitectura móvil, herramientas para desarrolladores y seguridad",
+    "contactButton": "Contáctame aquí",
+    "downloadCV": "Descargar CV"
+  },
   "about": {
     "title": "Sobre mí",
     "paragraph1": "Soy desarrollador de software móvil de Alemania con un fuerte enfoque en React Native, TypeScript y Swift. Completé mi licenciatura en Ciencias de la Computación (Ingeniería de Software) en la Universidad de Aalen y actualmente trabajo en BARMER, contribuyendo a una de las aplicaciones de salud más grandes de Alemania.",
