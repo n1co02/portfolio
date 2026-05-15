@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Contact matches snapshot 1`] = `
+<div>
+  <section
+    data-testid="contact-mock"
+  />
+</div>
+`;

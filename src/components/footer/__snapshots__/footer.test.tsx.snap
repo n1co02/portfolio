@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Footer matches snapshot 1`] = `
+<div>
+  <footer
+    class="mg-10 px-4 text-center text-gray-500"
+  >
+    <p>
+      <span
+        class="underline"
+      >
+        Impressum
+      </span>
+       
+      <span
+        class="underline"
+      >
+        Datenschutzerklärung
+      </span>
+    </p>
+     
+    <small
+      class="mb-2 block text-xs"
+    >
+      © 
+      2026
+       Nicolas Ostermann. All rights reserved.
+    </small>
+    <p
+      class="text-xs"
+    >
+      <span
+        class="font-semibold"
+      >
+        About this Website:
+      </span>
+       
+      built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, hosted on Vercel
+    </p>
+  </footer>
+</div>
+`;

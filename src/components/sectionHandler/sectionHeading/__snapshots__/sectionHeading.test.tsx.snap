@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SectionHeading matches snapshot 1`] = `
+<div>
+  <h2
+    class="text-3xl font-medium capitalize mb-8 text-center"
+  >
+    Test Heading
+  </h2>
+</div>
+`;
