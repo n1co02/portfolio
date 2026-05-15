@@ -1,5 +1,5 @@
 'use client'
-import React, { use, useEffect, useState } from 'react'
+import React from 'react'
 import SectionHeading from '../sectionHandler/sectionHeading/sectionHeading'
 import {
   VerticalTimeline,
@@ -14,12 +14,7 @@ import { useSectionInView } from '@/lib/hooks'
 export default function Experiences() {
   const { ref, inView } = useSectionInView('Experience', 0.5)
   const { theme } = useTheme()
-  const [isInView, setIsInView] = useState(false)
-  useEffect(() => {
-    if (inView) {
-      setIsInView(true)
-    }
-  }, [inView])
+  const isInView = inView
   return (
     <section
       id='experience'

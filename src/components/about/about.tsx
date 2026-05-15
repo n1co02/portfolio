@@ -25,8 +25,8 @@ export default function About() {
       </p>
 
       <p className={aboutStyles.paragraphStyle}>
-        Currently, I'm a working student as a full-stack developer at Heitec AG.
-        My tech stack includes{' '}
+        Currently, I&apos;m a working student as a full-stack developer at
+        Heitec AG. My tech stack includes{' '}
         <span className={aboutStyles.spanFontMediumStyle}>
           Angular, Express.js{' '}
         </span>
@@ -47,7 +47,7 @@ export default function About() {
           React/Next.js, Node.js and Firebase
         </span>
         . This diverse exposure allows me to stay adaptable and continuously
-        expand my skill set. I'm also familiar with{' '}
+        expand my skill set. I&apos;m also familiar with{' '}
         <span className={aboutStyles.spanFontMediumStyle}>
           TypeScript, Prisma, SQL
         </span>{' '}
@@ -67,7 +67,9 @@ export default function About() {
       </p>
 
       <p className={aboutStyles.paragraphStyle}>
-        <span className={aboutStyles.spanItalicStyle}>When I'm not coding</span>
+        <span className={aboutStyles.spanItalicStyle}>
+          When I&apos;m not coding
+        </span>
         , I enjoy doing sport, watching movies or spend time with my friends. I
         also enjoy{' '}
         <span className={aboutStyles.spanFontMediumStyle}>
