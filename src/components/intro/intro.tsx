@@ -57,12 +57,18 @@ export default function Intro() {
           Hello, I&apos;m Nicolas.
         </span>{' '}
         I&apos;m a{' '}
-        <span className={introStyles.boldSpanStyle}>full-stack developer</span>{' '}
-        with <span className={introStyles.boldSpanStyle}>2 year</span> of
-        experience. I enjoy building{' '}
-        <span className={introStyles.italicSpanStyle}>sites & apps</span>. My
-        focus is{' '}
-        <span className={introStyles.underlineSpanStyle}>Web-dev (React)</span>.
+        <span className={introStyles.boldSpanStyle}>
+          mobile software developer
+        </span>{' '}
+        focused on{' '}
+        <span className={introStyles.italicSpanStyle}>
+          React Native, Swift & TypeScript
+        </span>
+        . I build cross-platform mobile applications with a strong interest in{' '}
+        <span className={introStyles.underlineSpanStyle}>
+          mobile architecture, developer tooling & security
+        </span>
+        .
       </motion.h1>
       <motion.div
         className={introStyles.buttonsMotionDivStyle}
