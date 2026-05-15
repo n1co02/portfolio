@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "Home": "Ana Sayfa",
+    "About": "Hakkımda",
+    "Projects": "Projeler",
+    "Skills": "Yetenekler",
+    "Experience": "Deneyim",
+    "Contact": "İletişim"
+  },
+  "intro": {
+    "hello": "Merhaba, ben Nicolas.",
+    "description1": "Ben bir",
+    "mobileDeveloper": "Mobil Yazılım Geliştiricisiyim",
+    "description2": "ve odaklandığım teknolojiler",
+    "techStack": "React Native, Swift ve TypeScript",
+    "description3": "Platformlar arası mobil uygulamalar geliştiriyorum ve özellikle",
+    "interests": "Mobil mimari, geliştirici araçları ve güvenlik",
+    "contactButton": "Benimle iletişime geç",
+    "downloadCV": "CV indir"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "paragraph1": "Ben Almanya’dan bir Mobil Yazılım Geliştiricisiyim ve React Native, TypeScript ve Swift üzerine yoğunlaşıyorum. Yazılım Mühendisliği odaklı Bilgisayar Bilimi lisansımı Hochschule Aalen’de tamamladım ve şu anda Almanya’nın en büyük sağlık uygulamalarından biri üzerinde çalıştığım BARMER’de görev yapıyorum.",
+    "paragraph2": "Çalışmalarım arasında platformlar arası mobil özelliklerin geliştirilmesi ve bakımı, Swift ile yerel iOS bileşenlerinin entegrasyonu, Jest ve Pytest ile otomatik testlerin yazılması ve Sentry kullanarak uygulama çökme analizleri yer alıyor. Ayrıca dependency yönetimi, yazılım güncellemeleri ve modern mobil dünyadaki güvenlik konularıyla ilgileniyorum.",
+    "paragraph3": "BARMER’den önce Heitec AG’de Full-Stack geliştirici olarak çalıştım ve iç web uygulamaları ile backend sistemlerine katkıda bulundum. Lisans tezimin konusu ise geliştirme süreçlerini optimize etmek amacıyla OpenAPI tabanlı bir Angular kod üretici geliştirmekti.",
+    "paragraph4": "Ölçeklenebilir mimariler, geliştirici araçları ve temiz kullanıcı deneyimleri üzerinde çalışmayı seviyorum. Mobil geliştirmenin yanında yazılım mimarisi, yapay zeka destekli geliştirme süreçleri, güvenlik mühendisliği ve modern frontend ekosistemleriyle de ilgileniyorum.",
+    "paragraph5": "Yazılım dışında spor, seyahat ve dil öğrenmekle ilgileniyorum. Şu anda Almanca, İngilizce ve İspanyolca konuşuyorum ve hem dil hem teknik becerilerimi sürekli geliştirmeye çalışıyorum."
+  },
+  "projects": {
+    "digiBrain": {
+      "title": "DigiBrain",
+      "description": "Grup beyin fırtınası için geliştirilmiş bir React web uygulaması. Giriş sistemi, CRUD işlemleri, canlı güncellemeler ve GPT API içeriyordu. Backend ekibinin bir parçasıydım ve Express.js kullandım."
+    },
+
+    "quote": {
+      "title": "Quote",
+      "description": "Bir arkadaşım için Word dokümanı yerine kullanması amacıyla geliştirilmiş bir Next.js web sitesi. CRUD işlemleri, giriş sistemi, responsive tasarım, dark mode ve canlı güncellemeler içeriyordu. Vercel üzerinde deploy edildi."
+    },
+
+    "eLearning": {
+      "title": "E-Learning Projesi",
+      "description": "E-learning için geliştirilmiş bir React Native mobil uygulaması. İngilizce kelime öğrenme modu ve birden fazla kişinin gerçek zamanlı birlikte öğrenebildiği sanal sınıf sistemi içeriyordu."
+    },
+
+    "graveyardShooter": {
+      "title": "Graveyard Shooter",
+      "description": "Animasyonlar, hareket sistemi, ateş mekanikleri ve skor sistemi içeren dinamik bir VR shooter oyunu geliştirdiğimiz üniversite grup projesi."
+    },
+
+    "arRaceCar": {
+      "title": "AR-Race Car",
+      "description": "İki modlu bir Unity AR mobil uygulaması. Bir mod TCP üzerinden aracın kamera görüntüsünü kullanırken diğer mod AR özellikleri içeriyordu. Ben mobil uygulama tarafında çalıştım, embedded sistem ise Python ile geliştirildi."
+    },
+
+    "aelianasJourney": {
+      "title": "Aeliana's Journey",
+      "description": "Unity kullanarak geliştirdiğimiz bir 2D platform oyunu üniversite grup projesi. Leaderboard sistemi oyuna rekabetçi bir özellik kattı."
+    },
+
+    "codeGenerator": {
+      "title": "OpenAPI Tabanlı Kod Üretici",
+      "description": "Geliştirme süreçlerini optimize etmek için geliştirilmiş bir kod üretim aracı. Amaç API spesifikasyonlarından otomatik bileşen üretmekti."
+    }
+  },
+
+  "skills": {
+    "title": "Yeteneklerim"
+  },
+
+  "experience": {
+    "title": "İş Deneyimi",
+
+    "barmer": {
+      "title": "Mobil Yazılım Geliştiricisi",
+      "location": "Schwäbisch Gmünd, Almanya",
+      "description": "Almanya’nın en büyük sağlık uygulamalarından biri üzerinde çalışan bir Mobil Yazılım Geliştiricisi olarak BARMER’de görev yapıyorum. Çalışmalarım React Native geliştirme, Swift ile native iOS entegrasyonu, otomatik testler, dependency yönetimi, güvenlik konuları ve geliştirici araçlarını kapsıyor."
+    },
+
+    "bachelorThesis": {
+      "title": "Lisans Tezi",
+      "location": "Crailsheim, Almanya",
+      "description": "Heitec AG iş birliğiyle hazırlanan lisans tezi. Odak noktası OpenAPI tabanlı Angular kod üreticisi ile frontend geliştirme süreçlerini optimize etmekti. Not: 1.0"
+    },
+
+    "workingStudent": {
+      "title": "Part-Time Full-Stack Geliştirici",
+      "location": "Crailsheim, Almanya",
+      "description": "Heitec AG’de Angular, Node.js (Express), Neo4j ve Docker kullanarak iç uygulamalar ve backend sistemleri üzerinde çalıştım."
+    },
+
+    "internship": {
+      "title": "Web Geliştirme Stajı",
+      "location": "Crailsheim, Almanya",
+      "description": "Daimler Truck projesi kapsamında Heitec AG’de staj yaptım. Filtreleme, sıralama ve CRUD işlevlerine sahip backend geliştirme üzerine çalıştım. Kullanılan teknolojiler: C#, .NET, SQL ve OpenAPI."
+    },
+
+    "university": {
+      "title": "Bilgisayar Bilimi Eğitimi",
+      "location": "Aalen, Almanya",
+      "description": "Hochschule Aalen’de Yazılım Mühendisliği odaklı Bilgisayar Bilimi eğitimine başladım."
+    }
+  },
+
+  "contact": {
+    "title": "İletişim",
+    "description": "Benimle iletişime geçmek istersen bana şu adresten ulaşabilirsin:",
+    "formHint": "veya bu form aracılığıyla.",
+    "emailPlaceholder": "E-posta adresin",
+    "messagePlaceholder": "Mesajın",
+    "successToast": "E-posta başarıyla gönderildi!",
+    "submit": "Gönder"
+  }
+}
