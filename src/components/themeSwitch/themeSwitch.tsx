@@ -4,7 +4,10 @@ import { useTheme } from '@/context/themeContext'
 import React from 'react'
 import { BsMoon, BsSun } from 'react-icons/bs'
 import { buttonStyle } from './themeSwitchStyles'
-export default function ThemeSwitch() {
+
+import dynamic from 'next/dynamic'
+
+function ThemeSwitchComponent() {
   const { theme, toggleTheme } = useTheme()
 
   return (
@@ -13,3 +16,9 @@ export default function ThemeSwitch() {
     </button>
   )
 }
+
+const ThemeSwitch = dynamic(() => Promise.resolve(ThemeSwitchComponent), {
+  ssr: false,
+})
+
+export default ThemeSwitch
