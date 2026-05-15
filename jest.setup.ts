@@ -14,7 +14,7 @@ Object.defineProperty(window, 'matchMedia', {
   })),
 })
 
-class MockIntersectionObserver implements IntersectionObserver {
+class MockIntersectionObserver {
   readonly root = null
   readonly rootMargin = ''
   readonly thresholds = []
