@@ -50,5 +50,38 @@
       "title": "Generador de código",
       "description": "Tesis: una herramienta de generación de código basada en OpenAPI para optimizar flujos de desarrollo. El enfoque estuvo en generar código de definiciones de API."
     }
+  },
+  "skills": { "title": "Tecnologías y habilidades" },
+  "experience": {
+    "title": "Mi experiencia",
+    "barmer": {
+      "title": "Desarrollador de Software Móvil",
+      "location": "Schwäbisch Gmünd, Alemania",
+      "description": "Trabajo como desarrollador de software móvil en BARMER, contribuyendo a una de las aplicaciones de salud más grandes de Alemania. Mi trabajo incluye desarrollo con React Native, integración nativa de iOS con Swift, pruebas automatizadas, gestión de dependencias, temas de seguridad y herramientas para desarrolladores."
+    },
+
+    "bachelorThesis": {
+      "title": "Tesis de Grado",
+      "location": "Crailsheim, Alemania",
+      "description": "Tesis de grado en cooperación con Heitec AG. El enfoque estuvo en optimizar flujos de desarrollo frontend mediante un generador de código Angular basado en OpenAPI."
+    },
+
+    "workingStudent": {
+      "title": "Estudiante trabajador Full-Stack",
+      "location": "Crailsheim, Alemania",
+      "description": "Trabajé como desarrollador full-stack en Heitec AG en aplicaciones internas y sistemas backend utilizando Angular, Node.js (Express), Neo4j y Docker."
+    },
+
+    "internship": {
+      "title": "Prácticas como Desarrollador Web",
+      "location": "Crailsheim, Alemania",
+      "description": "Realicé prácticas en Heitec AG trabajando en un proyecto para Daimler Truck. Me enfoqué en desarrollo backend con funcionalidades de filtrado, ordenamiento y CRUD usando C#, .NET, SQL y OpenAPI."
+    },
+
+    "university": {
+      "title": "Estudios de Ciencias de la Computación",
+      "location": "Aalen, Alemania",
+      "description": "Comencé mis estudios de Ciencias de la Computación con especialización en Ingeniería de Software en la Universidad de Aalen."
+    }
   }
 }

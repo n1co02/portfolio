@@ -39,39 +39,41 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Bachelorthesis',
-    location: 'Crailsheim, Germany',
-    description:
-      'Right now, I am writing my Bachelorthesis in corporation with the Heitec AG. The title is "Optimization of the Development Workflow in Web Development through Code Generation and Open API"',
+    titleKey: 'barmer.title',
+    locationKey: 'barmer.location',
+    descriptionKey: 'barmer.description',
+    icon: React.createElement(CgWorkAlt),
+    date: 'August 2024 - Present',
+  },
+  {
+    titleKey: 'bachelorThesis.title',
+    locationKey: 'bachelorThesis.location',
+    descriptionKey: 'bachelorThesis.description',
     icon: React.createElement(MdScience),
     date: 'March 2024 - June 2024',
   },
   {
-    title: 'Working student as a Full-Stack Developer',
-    location: 'Crailsheim, Germany',
-    description:
-      'After my Internship I worked as a Full-stack for the Heitec AG on internal products. My tech stack was Angular, Node.js (Express), Neo4J and Docker.',
+    titleKey: 'workingStudent.title',
+    locationKey: 'workingStudent.location',
+    descriptionKey: 'workingStudent.description',
     icon: React.createElement(CgWorkAlt),
     date: 'February 2023 - March 2024',
   },
   {
-    title: 'Internship as a Web-Developer',
-    location: 'Crailsheim, Germany',
-    description:
-      'I did an internship as a Web-developer at the Heitec AG. I worked on a project for Daimler-Truck. I was the back-end developer. It has features like filtering, sorting and CRUD. I used C#, .NET, SQL and Open API.',
+    titleKey: 'internship.title',
+    locationKey: 'internship.location',
+    descriptionKey: 'internship.description',
     icon: React.createElement(MdWork),
-    date: 'September2022 - January 2023',
+    date: 'September 2022 - January 2023',
   },
   {
-    title: 'Enrolled in University',
-    location: 'Aalen, Germany',
-    description:
-      'After finishing my matura, I enrolled in university to study computer science.',
+    titleKey: 'university.title',
+    locationKey: 'university.location',
+    descriptionKey: 'university.description',
     icon: React.createElement(LuGraduationCap),
-    date: 'September 2020',
+    date: 'September 2020 - June 2024',
   },
 ] as const
-
 export const projectsData = [
   {
     titleKey: 'digiBrain.title',

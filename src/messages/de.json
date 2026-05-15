@@ -50,5 +50,38 @@
       "title": "OpenAPI-basierter Codegenerator",
       "description": "Bachelorarbeit: Ein Codegenerierungstool basierend auf OpenAPI zur Optimierung von Entwicklungsworkflows. Der Fokus lag auf der Generierung wiederverwendbarer Frontend-Komponenten aus API-Spezifikationen."
     }
+  },
+  "skills": { "title": "Meine Skills" },
+  "experience": {
+    "title": "Arbeitserfahrung",
+    "barmer": {
+      "title": "Mobile Software Developer",
+      "location": "Schwäbisch Gmünd, Deutschland",
+      "description": "Arbeit als Mobile Software Developer bei der BARMER an einer der größten Healthcare-Apps Deutschlands. Meine Arbeit umfasst React-Native-Entwicklung, native iOS-Integration mit Swift, automatisierte Tests, Dependency-Management, sicherheitsrelevante Themen und Developer Tooling."
+    },
+
+    "bachelorThesis": {
+      "title": "Bachelorarbeit",
+      "location": "Crailsheim, Deutschland",
+      "description": "Bachelorarbeit in Kooperation mit Heitec AG. Der Fokus lag auf der Optimierung von Frontend-Entwicklungsworkflows durch einen OpenAPI-basierten Angular-Codegenerator."
+    },
+
+    "workingStudent": {
+      "title": "Werkstudent Full-Stack-Entwicklung",
+      "location": "Crailsheim, Deutschland",
+      "description": "Arbeit als Full-Stack-Entwickler bei Heitec AG an internen Anwendungen und Backend-Systemen mit Angular, Node.js (Express), Neo4j und Docker."
+    },
+
+    "internship": {
+      "title": "Praktikum als Webentwickler",
+      "location": "Crailsheim, Deutschland",
+      "description": "Absolvierte ein Praktikum bei Heitec AG im Rahmen eines Daimler-Truck-Projekts. Fokus auf Backend-Entwicklung mit Filter-, Sortier- und CRUD-Funktionalitäten unter Verwendung von C#, .NET, SQL und OpenAPI."
+    },
+
+    "university": {
+      "title": "Informatikstudium",
+      "location": "Aalen, Deutschland",
+      "description": "Beginn des Informatikstudiums mit Schwerpunkt Software Engineering an der Hochschule Aalen."
+    }
   }
 }

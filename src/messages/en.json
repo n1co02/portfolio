@@ -50,5 +50,38 @@
       "title": "OpenAPI-based Code Generator",
       "description": "Bachelor thesis: A code generation tool based on OpenAPI to optimize development workflows. Focused on generating reusable frontend code from API definitions."
     }
+  },
+  "skills": { "title": "My Skills" },
+  "experience": {
+    "title": "My Experience",
+    "barmer": {
+      "title": "Mobile Software Developer",
+      "location": "Schwäbisch Gmünd, Germany",
+      "description": "Working as a mobile software developer at BARMER, contributing to one of Germany's largest healthcare applications. My work includes React Native development, native iOS integration with Swift, automated testing, dependency management, security-related topics and developer tooling."
+    },
+
+    "bachelorThesis": {
+      "title": "Bachelor Thesis",
+      "location": "Crailsheim, Germany",
+      "description": "Bachelor thesis in cooperation with Heitec AG. The focus was on optimizing frontend development workflows through an OpenAPI-based Angular code generator."
+    },
+
+    "workingStudent": {
+      "title": "Working Student Full-Stack Developer",
+      "location": "Crailsheim, Germany",
+      "description": "Worked as a full-stack developer at Heitec AG on internal applications and backend systems using Angular, Node.js (Express), Neo4j and Docker."
+    },
+
+    "internship": {
+      "title": "Internship as Web Developer",
+      "location": "Crailsheim, Germany",
+      "description": "Completed an internship at Heitec AG while working on a Daimler Truck project. Focused on backend development with filtering, sorting and CRUD functionality using C#, .NET, SQL and OpenAPI."
+    },
+
+    "university": {
+      "title": "Computer Science Studies",
+      "location": "Aalen, Germany",
+      "description": "Started studying Computer Science with a specialization in Software Engineering at Aalen University."
+    }
   }
 }
