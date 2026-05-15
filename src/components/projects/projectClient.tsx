@@ -43,7 +43,7 @@ export default function Project({
           className={projectStyles.imgStyle}
           src={imageUrl}
           alt={'Project I worked on'}
-          quality={95}
+          quality={75}
         />
       </section>
     </motion.div>
