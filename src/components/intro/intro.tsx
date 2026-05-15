@@ -28,7 +28,7 @@ export default function Intro() {
               alt='Nicolas portrait'
               width={192}
               height={192}
-              quality={100}
+              quality={75}
               priority={true}
               className={introStyles.imageStyles}
             />

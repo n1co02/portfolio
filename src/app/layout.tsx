@@ -11,8 +11,58 @@ import ThemeContextProvider from '@/context/themeContext'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Nicolas | Portfolio',
-  description: 'My personal portfolio as a full-stack developer.',
+  title: 'Nicolas Ostermann | Mobile Software Developer',
+
+  description:
+    'Portfolio of Nicolas Ostermann — Mobile Software Developer from Stuttgart specialized in React Native, TypeScript, Swift and developer tooling.',
+
+  keywords: [
+    'Nicolas Ostermann',
+    'Mobile Software Developer',
+    'React Native',
+    'TypeScript',
+    'Swift',
+    'SwiftUI',
+    'Next.js',
+    'Software Engineer',
+    'Portfolio',
+    'Stuttgart',
+    'Germany',
+  ],
+
+  authors: [{ name: 'Nicolas Ostermann' }],
+
+  creator: 'Nicolas Ostermann',
+
+  applicationName: 'Nicolas Ostermann Portfolio',
+
+  category: 'technology',
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  metadataBase: new URL('https://portfolio-weld-one-68.vercel.app'),
+
+  openGraph: {
+    title: 'Nicolas Ostermann | Mobile Software Developer',
+
+    description:
+      'Mobile Software Developer specialized in React Native, Swift, TypeScript and developer tooling.',
+
+    url: 'https://portfolio-weld-one-68.vercel.app',
+
+    siteName: 'Nicolas Ostermann Portfolio',
+
+    locale: 'en_US',
+
+    type: 'website',
+  },
+
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
