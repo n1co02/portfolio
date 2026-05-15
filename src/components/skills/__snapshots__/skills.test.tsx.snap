@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Skills matches snapshot 1`] = `
+<div>
+  <section
+    class="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+    id="skills"
+  >
+    <h2
+      class="text-3xl font-medium capitalize mb-8 text-center"
+    >
+      My Skills
+    </h2>
+    <ul
+      class="flex flex-wrap justify-center gap-2 text-lg text-gray-800"
+    >
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        React Native
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        TypeScript
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Swift
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        SwiftUI
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        React
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Next.js
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Angular
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Node.js
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Express.js
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        REST APIs
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Firebase
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        MongoDB
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        SQL
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Neo4j
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Prisma
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Docker
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Git
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Sentry
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Jest
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Pytest
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Expo
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Xcode
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        Tailwind CSS
+      </li>
+      <li
+        class="bg-white borderBlack/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+        style="opacity: 0; transform: translateY(100px);"
+      >
+        OpenAPI
+      </li>
+    </ul>
+  </section>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Impressum matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <h1
+        class="text-xl font-semibold mb-4"
+      >
+        Impressum
+      </h1>
+      <h2
+        class="text-lg font-semibold mb-4"
+      >
+        Angaben gemäß § 5 TMG
+      </h2>
+      <div
+        class="text-left inline-block text-sm align-top"
+      >
+        <p
+          class="mb-2"
+        >
+          Nicolas Ostermann
+          <br />
+          Hardtstraße 61
+          <br />
+          73479 Ellwangen
+        </p>
+        <h2
+          class="text-lg font-semibold mb-2"
+        >
+          Kontakt
+        </h2>
+        <p
+          class="mb-2"
+        >
+          Telefon: +49 176 323 63009
+          <br />
+          E-Mail: ostermann.n@gmx.de
+        </p>
+        <p
+          class="mt-4"
+        >
+          Quelle:
+           
+          <a
+            class="text-blue-600 hover:text-blue-800"
+            href="https://www.e-recht24.de"
+          >
+            eRecht24
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
