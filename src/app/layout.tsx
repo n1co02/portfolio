@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   description:
     'Portfolio of Nicolas Ostermann — Mobile Software Developer from Stuttgart specialized in React Native, TypeScript, Swift and developer tooling.',
 
+  verification: {
+    google: '8hoLu5W2R0EoEmL77waeEtZ-JsEOUaPaXnB-CO4br94',
+  },
   keywords: [
     'Nicolas Ostermann',
     'Mobile Software Developer',
