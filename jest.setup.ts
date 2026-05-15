@@ -36,3 +36,8 @@ Object.defineProperty(global, 'IntersectionObserver', {
   configurable: true,
   value: MockIntersectionObserver,
 })
+
+jest.mock('next-intl', () => ({
+  useTranslations: () => (key: string) => key,
+  useLocale: () => 'en',
+}))

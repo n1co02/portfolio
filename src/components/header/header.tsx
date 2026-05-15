@@ -6,10 +6,14 @@ import Link from 'next/link'
 import * as headerStyles from './headerStyles'
 import clsx from 'clsx'
 import { useActiveSectionContext } from '@/context/activeSectionContext'
+import { useTranslations } from 'next-intl'
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext()
+
+  const t = useTranslations('nav')
+
   return (
     <header className='z-[999] relative'>
       <motion.div
@@ -40,7 +44,7 @@ export default function Header() {
                   setTimeOfLastClick(Date.now())
                 }}
               >
-                {link.name}
+                {t(link.name)}
                 {link.name === activeSection && (
                   <motion.span
                     className={headerStyles.spanStyles}

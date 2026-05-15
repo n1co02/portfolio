@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "Home": "Home",
+    "About": "Chi sono",
+    "Projects": "Progetti",
+    "Skills": "Competenze",
+    "Experience": "Esperienza",
+    "Contact": "Contatto"
+  },
+  "intro": {
+    "hello": "Ciao, sono Nicolas.",
+    "description1": "Sono uno",
+    "mobileDeveloper": "sviluppatore software mobile",
+    "description2": "specializzato in",
+    "techStack": "React Native, Swift e TypeScript",
+    "description3": "Sviluppo applicazioni mobile multipiattaforma con un forte interesse per",
+    "interests": "architettura mobile, developer tooling e sicurezza",
+    "contactButton": "Contattami qui",
+    "downloadCV": "Scarica il CV"
+  },
+  "about": {
+    "title": "Chi sono",
+    "paragraph1": "Sono uno sviluppatore software mobile dalla Germania con un forte focus su React Native, TypeScript e Swift. Ho completato la mia laurea in Informatica (Software Engineering) presso l'Università di Aalen e attualmente lavoro presso BARMER, contribuendo a una delle più grandi applicazioni sanitarie della Germania.",
+    "paragraph2": "Il mio lavoro include lo sviluppo e la manutenzione di funzionalità mobile multipiattaforma, l'integrazione di componenti iOS nativi con Swift, la creazione di test automatizzati con Jest e Pytest e l'analisi di crash e incidenti applicativi tramite Sentry. Mi occupo anche di gestione delle dipendenze, aggiornamenti software e temi legati alla sicurezza nelle moderne applicazioni mobile.",
+    "paragraph3": "Prima di entrare in BARMER, ho lavorato come sviluppatore full-stack presso Heitec AG, contribuendo ad applicazioni web interne e sistemi backend. La mia tesi di laurea si è concentrata sullo sviluppo di un generatore di codice Angular basato su OpenAPI per ottimizzare i workflow di sviluppo.",
+    "paragraph4": "Mi piace lavorare su architetture scalabili, developer tooling ed esperienze utente pulite. Oltre allo sviluppo mobile, mi interessano l'architettura software, i workflow di sviluppo assistiti dall'IA, la security engineering e i moderni ecosistemi frontend.",
+    "paragraph5": "Fuori dalla programmazione, mi piacciono lo sport, i viaggi e l'apprendimento delle lingue. Attualmente parlo tedesco, inglese e spagnolo e continuo a migliorare le mie competenze linguistiche e tecniche."
+  },
+  "projects": {
+    "digiBrain": {
+      "title": "DigiBrain",
+      "description": "Un sito web React per brainstorming di gruppo. Includeva un sistema di login, operazioni CRUD, aggiornamenti in tempo reale e l'API GPT. Facevo parte del team backend usando Express.js."
+    },
+    "quote": {
+      "title": "Quote",
+      "description": "Una web app Next.js per aiutare un'amica a sostituire un documento Word. Include operazioni CRUD, design responsive, dark mode e aggiornamenti in tempo reale."
+    },
+    "eLearning": {
+      "title": "Progetto E-Learning",
+      "description": "Un'app mobile React Native per e-learning. Includeva una modalità di apprendimento individuale per vocaboli inglesi e un'aula virtuale dove più persone potevano imparare insieme in tempo reale."
+    },
+    "graveyardShooter": {
+      "title": "Graveyard Shooter",
+      "description": "Un progetto universitario di gruppo in cui abbiamo sviluppato uno shooter VR singleplayer con animazioni, movimento, meccaniche di sparo e un sistema di punteggio."
+    },
+    "arRaceCar": {
+      "title": "AR-Race Car",
+      "description": "Un'app mobile AR sviluppata con Unity con due modalità. Una utilizzava lo streaming della videocamera dell'auto tramite TCP, mentre l'altra includeva funzionalità di realtà aumentata."
+    },
+    "aelianasJourney": {
+      "title": "Aelianas Journey",
+      "description": "Un progetto universitario di gruppo in cui abbiamo sviluppato un platform 2D in Unity. È stato incluso un sistema di classifica per aggiungere un aspetto competitivo."
+    },
+    "codeGenerator": {
+      "title": "Generatore di codice",
+      "description": "Tesi di laurea: uno strumento di generazione di codice basato su OpenAPI per ottimizzare i workflow di sviluppo. Il focus era sulla generazione di codice frontend da definizioni API."
+    }
+  },
+  "skills": {
+    "title": "Tecnologie e competenze"
+  },
+  "experience": {
+    "title": "La mia esperienza",
+    "barmer": {
+      "title": "Mobile Software Developer",
+      "location": "Schwäbisch Gmünd, Germania",
+      "description": "Lavoro come sviluppatore software mobile presso BARMER, contribuendo a una delle più grandi applicazioni sanitarie della Germania. Il mio lavoro include sviluppo React Native, integrazione iOS nativa con Swift, test automatizzati, gestione dipendenze, temi di sicurezza e developer tooling."
+    },
+    "bachelorThesis": {
+      "title": "Tesi di laurea",
+      "location": "Crailsheim, Germania",
+      "description": "Tesi di laurea in collaborazione con Heitec AG. Il focus era sull'ottimizzazione dei workflow frontend tramite un generatore di codice Angular basato su OpenAPI. Voto: 1.0"
+    },
+    "workingStudent": {
+      "title": "Studente lavoratore Full-Stack",
+      "location": "Crailsheim, Germania",
+      "description": "Ho lavorato come sviluppatore full-stack presso Heitec AG su applicazioni interne e sistemi backend usando Angular, Node.js (Express), Neo4j e Docker."
+    },
+    "internship": {
+      "title": "Stage come Web Developer",
+      "location": "Crailsheim, Germania",
+      "description": "Ho svolto uno stage presso Heitec AG lavorando a un progetto per Daimler Truck. Mi sono concentrato sul backend con funzionalità di filtro, ordinamento e CRUD usando C#, .NET, SQL e OpenAPI."
+    },
+    "university": {
+      "title": "Studi in Informatica",
+      "location": "Aalen, Germania",
+      "description": "Ho iniziato gli studi di Informatica con specializzazione in Software Engineering presso l'Università di Aalen."
+    }
+  },
+  "contact": {
+    "title": "Contatto",
+    "description": "Se vuoi contattarmi, puoi scrivermi a",
+    "formHint": "oppure usare questo modulo.",
+    "emailPlaceholder": "La tua email",
+    "messagePlaceholder": "Il tuo messaggio",
+    "successToast": "Email inviata con successo!",
+    "submit": "Invia"
+  }
+}

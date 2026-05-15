@@ -45,30 +45,32 @@ exports[`Home matches snapshot 1`] = `
         <span
           class="font-bold"
         >
-          Hello, I'm Nicolas.
+          hello
         </span>
          
-        I'm a
+        description1
          
         <span
           class="font-bold"
         >
-          mobile software developer
+          mobileDeveloper
         </span>
          
-        focused on
+        description2
          
         <span
           class="italic"
         >
-          React Native, Swift & TypeScript
+          techStack
         </span>
-        . I build cross-platform mobile applications with a strong interest in
+        .
+         
+        description3
          
         <span
           class="underline"
         >
-          mobile architecture, developer tooling & security
+          interests
         </span>
         .
       </h1>
@@ -80,7 +82,7 @@ exports[`Home matches snapshot 1`] = `
           class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           href="#contact"
         >
-          Contact me here
+          contactButton
            
           <svg
             class="opacity-70 group-hover:translate-x-1 transition"
@@ -103,7 +105,7 @@ exports[`Home matches snapshot 1`] = `
           download=""
           href="/CV.pdf"
         >
-          Download CV
+          downloadCV
            
           <svg
             aria-hidden="true"
@@ -175,90 +177,32 @@ exports[`Home matches snapshot 1`] = `
       <h2
         class="text-3xl font-medium capitalize mb-8 text-center"
       >
-        About me
+        title
       </h2>
       <p
         class="mb-3"
       >
-        I'm a mobile software developer from Germany with a strong focus on
-         
-        <span
-          class="font-medium"
-        >
-          React Native, TypeScript and Swift
-        </span>
-        . I completed my B.Sc. in Computer Science (Software Engineering) at Aalen University and currently work at
-         
-        <span
-          class="font-medium"
-        >
-          BARMER
-        </span>
-        , contributing to one of Germany's largest healthcare applications.
+        paragraph1
       </p>
       <p
         class="mb-3"
       >
-        My work includes developing and maintaining cross-platform mobile features, integrating native iOS components with Swift, creating automated tests with
-         
-        <span
-          class="font-medium"
-        >
-          Jest and Pytest
-        </span>
-        , and analyzing application crashes and incidents using
-         
-        <span
-          class="font-medium"
-        >
-          Sentry
-        </span>
-        . I'm also involved in dependency management, software updates and security-related topics within modern mobile applications.
+        paragraph2
       </p>
       <p
         class="mb-3"
       >
-        Before joining BARMER, I worked as a full-stack developer at
-         
-        <span
-          class="font-medium"
-        >
-          Heitec AG
-        </span>
-        , where I contributed to internal web applications and backend systems. My bachelor thesis focused on building an
-         
-        <span
-          class="font-medium"
-        >
-          OpenAPI-based Angular code generator
-        </span>
-         
-        to optimize development workflows.
+        paragraph3
       </p>
       <p
         class="mb-3"
       >
-        I enjoy working on
-         
-        <span
-          class="italic"
-        >
-          scalable architectures, developer tooling and clean user experiences
-        </span>
-        . Beyond mobile development, I'm interested in software architecture, AI-assisted development workflows, security engineering and modern frontend ecosystems.
+        paragraph4
       </p>
       <p
         class="mb-3"
       >
-        Outside of programming, I enjoy sports, traveling and learning languages. I currently speak
-         
-        <span
-          class="font-medium"
-        >
-          German, English and Spanish
-        </span>
-         
-        and continuously work on improving my language skills and technical expertise.
+        paragraph5
       </p>
     </section>
     <section
@@ -284,12 +228,12 @@ exports[`Home matches snapshot 1`] = `
               <h3
                 class="text-2xl font-semibold"
               >
-                DigiBrain
+                digiBrain.title
               </h3>
               <p
                 class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
               >
-                A React website for group Brainstorming. It included a login System, CRUD operations, live updates and the GPT API. I was part of the backend team with Express.js
+                digiBrain.description
               </p>
               <ul
                 class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
@@ -353,12 +297,12 @@ exports[`Home matches snapshot 1`] = `
               <h3
                 class="text-2xl font-semibold"
               >
-                Quote
+                quote.title
               </h3>
               <p
                 class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
               >
-                A Next.js website for a friend to move on from a word document. It includes CRUD operations, a login system, a responsive design, darkmode and live updates. Deployed on Vercel.
+                quote.description
               </p>
               <ul
                 class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
@@ -422,12 +366,12 @@ exports[`Home matches snapshot 1`] = `
               <h3
                 class="text-2xl font-semibold"
               >
-                E-Learning Project
+                eLearning.title
               </h3>
               <p
                 class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
               >
-                A React Native mobile app for E-learning. It included a single learning mode, for english (vocabularies) and a virtual classroom multiple people, learning in realtime.
+                eLearning.description
               </p>
               <ul
                 class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
@@ -481,12 +425,12 @@ exports[`Home matches snapshot 1`] = `
               <h3
                 class="text-2xl font-semibold"
               >
-                Graveyard Shooter
+                graveyardShooter.title
               </h3>
               <p
                 class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
               >
-                We worked as a group to create a dynamic singleplayer VR shooter game in university. We included animations, movement, shooting and a scoring system. 
+                graveyardShooter.description
               </p>
               <ul
                 class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
@@ -540,12 +484,12 @@ exports[`Home matches snapshot 1`] = `
               <h3
                 class="text-2xl font-semibold"
               >
-                AR-Race Car
+                arRaceCar.title
               </h3>
               <p
                 class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
               >
-                A Unity AR mobile app with 2 modes. One mode used the camera of the car and received a stream with tcp, the other one included AR features. I worked on the mobile part. The embedded part was done with python
+                arRaceCar.description
               </p>
               <ul
                 class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
@@ -599,12 +543,12 @@ exports[`Home matches snapshot 1`] = `
               <h3
                 class="text-2xl font-semibold"
               >
-                Aelianas Journey
+                aelianasJourney.title
               </h3>
               <p
                 class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
               >
-                We worked as a group to create a unity 2D jump and run game called Aelianas Journey. A leaderboard was included, to have a competitive aspect.
+                aelianasJourney.description
               </p>
               <ul
                 class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
@@ -645,6 +589,65 @@ exports[`Home matches snapshot 1`] = `
             />
           </section>
         </div>
+        <div
+          class="group mb-3 sm:mb-8 last:mb-0 cursor-pointer"
+          style="opacity: 0.6; transform: scale(0.8);"
+        >
+          <section
+            class="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] mb-3 sm:mb-8 last:mb-0 sm:group-even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
+          >
+            <div
+              class="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
+            >
+              <h3
+                class="text-2xl font-semibold"
+              >
+                codeGenerator.title
+              </h3>
+              <p
+                class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              >
+                codeGenerator.description
+              </p>
+              <ul
+                class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
+              >
+                <li
+                  class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                >
+                  TypeScript
+                </li>
+                <li
+                  class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                >
+                  Angular
+                </li>
+                <li
+                  class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                >
+                  Node.js
+                </li>
+                <li
+                  class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                >
+                  OpenAPI
+                </li>
+              </ul>
+            </div>
+            <img
+              alt="Project I worked on"
+              class="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover: translate-y-3 group-hover:-rotate-2 transition group-hover:scale-[1.04] group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </section>
+        </div>
       </div>
     </section>
     <section
@@ -654,7 +657,7 @@ exports[`Home matches snapshot 1`] = `
       <h2
         class="text-3xl font-medium capitalize mb-8 text-center"
       >
-        My Skills
+        title
       </h2>
       <ul
         class="flex flex-wrap justify-center gap-2 text-lg text-gray-800"

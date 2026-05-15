@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "Home": "Start",
+    "About": "Über mich",
+    "Projects": "Projekte",
+    "Skills": "Skills",
+    "Experience": "Erfahrung",
+    "Contact": "Kontakt"
+  },
+  "intro": {
+    "hello": "Hallo, ich bin Nicolas.",
+    "description1": "Ich bin",
+    "mobileDeveloper": "Mobile Software Developer",
+    "description2": "mit Fokus auf",
+    "techStack": "React Native, Swift & TypeScript",
+    "description3": "Ich entwickle plattformübergreifende Mobile-Apps mit großem Interesse an",
+    "interests": "Mobile-Architektur, Developer Tooling & Security",
+    "contactButton": "Kontaktiere mich",
+    "downloadCV": "CV herunterladen"
+  },
+  "about": {
+    "title": "Über mich",
+    "paragraph1": "Ich bin Mobile Software Developer aus Deutschland mit einem starken Fokus auf React Native, TypeScript und Swift. Meinen Bachelor in Informatik mit Schwerpunkt Software Engineering habe ich an der Hochschule Aalen abgeschlossen und arbeite aktuell bei der BARMER, wo ich an einer der größten Healthcare-Apps Deutschlands mitwirke.",
+    "paragraph2": "Zu meiner Arbeit gehören die Entwicklung und Wartung plattformübergreifender Mobile-Features, die Integration nativer iOS-Komponenten mit Swift, die Erstellung automatisierter Tests mit Jest und Pytest sowie die Analyse von App-Abstürzen und Incidents mit Sentry. Außerdem beschäftige ich mich mit Dependency-Management, Software-Updates und sicherheitsrelevanten Themen im modernen Mobile-Umfeld.",
+    "paragraph3": "Vor meiner Zeit bei der BARMER arbeitete ich als Full-Stack-Entwickler bei Heitec AG, wo ich an internen Webanwendungen und Backend-Systemen mitgewirkt habe. Meine Bachelorarbeit konzentrierte sich auf die Entwicklung eines OpenAPI-basierten Angular-Codegenerators zur Optimierung von Entwicklungsprozessen.",
+    "paragraph4": "Ich arbeite gerne an skalierbaren Architekturen, Developer Tooling und sauberen User Experiences. Neben der Mobile-Entwicklung interessieren mich Softwarearchitektur, KI-gestützte Entwicklungsworkflows, Security Engineering und moderne Frontend-Ökosysteme.",
+    "paragraph5": "Außerhalb des Programmierens interessiere ich mich für Sport, Reisen und Sprachenlernen. Aktuell spreche ich Deutsch, Englisch und Spanisch und arbeite kontinuierlich daran, meine sprachlichen und technischen Fähigkeiten weiterzuentwickeln."
+  },
+  "projects": {
+    "digiBrain": {
+      "title": "DigiBrain",
+      "description": "Eine React-Webseite für Gruppen-Brainstorming. Sie beinhaltete ein Login-System, CRUD-Operationen, Live-Updates und die GPT-API. Ich war Teil des Backend-Teams mit Express.js."
+    },
+
+    "quote": {
+      "title": "Quote",
+      "description": "Eine Next.js-Webseite für eine Freundin, um von einem Word-Dokument wegzukommen. Sie beinhaltet CRUD-Operationen, ein Login-System, responsives Design, Dark Mode und Live-Updates. Deployt auf Vercel."
+    },
+
+    "eLearning": {
+      "title": "E-Learning Projekt",
+      "description": "Eine React-Native-Mobile-App für E-Learning. Sie beinhaltete einen Lernmodus für englische Vokabeln sowie einen virtuellen Klassenraum, in dem mehrere Personen in Echtzeit gemeinsam lernen konnten."
+    },
+
+    "graveyardShooter": {
+      "title": "Graveyard Shooter",
+      "description": "Ein Universitäts-Gruppenprojekt, bei dem wir einen dynamischen Singleplayer-VR-Shooter mit Animationen, Bewegung, Schussmechaniken und einem Punktesystem entwickelt haben."
+    },
+
+    "arRaceCar": {
+      "title": "AR-Race Car",
+      "description": "Eine Unity-AR-Mobile-App mit zwei Modi. Ein Modus nutzte den Kamerastream des Autos über TCP, während der andere AR-Funktionalitäten beinhaltete. Ich arbeitete an der Mobile-App, während das Embedded-System mit Python entwickelt wurde."
+    },
+
+    "aelianasJourney": {
+      "title": "Aelianas Journey",
+      "description": "Ein Universitäts-Gruppenprojekt, bei dem wir ein 2D-Jump-and-Run-Spiel in Unity entwickelt haben. Ein Leaderboard-System sorgte zusätzlich für einen kompetitiven Aspekt."
+    },
+
+    "codeGenerator": {
+      "title": "OpenAPI-basierter Codegenerator",
+      "description": "Ein Codegenerierungtor zur Optimierung von Entwicklungsworkflows. Ziel war die Generierung von Komponenten aus API-Spezifikationen."
+    }
+  },
+  "skills": { "title": "Meine Skills" },
+  "experience": {
+    "title": "Arbeitserfahrung",
+    "barmer": {
+      "title": "Mobile Software Developer",
+      "location": "Schwäbisch Gmünd, Deutschland",
+      "description": "Arbeit als Mobile Software Developer bei der BARMER an einer der größten Healthcare-Apps Deutschlands. Meine Arbeit umfasst React-Native-Entwicklung, native iOS-Integration mit Swift, automatisierte Tests, Dependency-Management, sicherheitsrelevante Themen und Developer Tooling."
+    },
+
+    "bachelorThesis": {
+      "title": "Bachelorarbeit",
+      "location": "Crailsheim, Deutschland",
+      "description": "Bachelorarbeit in Kooperation mit Heitec AG. Der Fokus lag auf der Optimierung von Frontend-Entwicklungsworkflows durch einen OpenAPI-basierten Angular-Codegenerator. Note: 1.0"
+    },
+
+    "workingStudent": {
+      "title": "Werkstudent Full-Stack-Entwicklung",
+      "location": "Crailsheim, Deutschland",
+      "description": "Arbeit als Full-Stack-Entwickler bei Heitec AG an internen Anwendungen und Backend-Systemen mit Angular, Node.js (Express), Neo4j und Docker."
+    },
+
+    "internship": {
+      "title": "Praktikum als Webentwickler",
+      "location": "Crailsheim, Deutschland",
+      "description": "Absolvierte ein Praktikum bei Heitec AG im Rahmen eines Daimler-Truck-Projekts. Fokus auf Backend-Entwicklung mit Filter-, Sortier- und CRUD-Funktionalitäten unter Verwendung von C#, .NET, SQL und OpenAPI."
+    },
+
+    "university": {
+      "title": "Informatikstudium",
+      "location": "Aalen, Deutschland",
+      "description": "Beginn des Informatikstudiums mit Schwerpunkt Software Engineering an der Hochschule Aalen."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Wenn du mit mir in Kontakt treten möchtest, erreichst du mich unter",
+    "formHint": "oder über dieses Formular.",
+    "emailPlaceholder": "Deine E-Mail",
+    "messagePlaceholder": "Deine Nachricht",
+    "successToast": "E-Mail erfolgreich gesendet!",
+    "submit": "Absenden"
+  }
+}

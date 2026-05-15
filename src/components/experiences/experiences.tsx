@@ -12,10 +12,12 @@ import { experiencesData } from '@/lib/data'
 import { useTheme } from '@/context/themeContext'
 import * as experiencesStyles from './experiencesStyles'
 import { useSectionInView } from '@/lib/hooks'
-
+import { useTranslations } from 'next-intl'
 function ExperiencesComponent() {
   const { ref, inView } = useSectionInView('Experience', 0.5)
   const { theme } = useTheme()
+
+  const t = useTranslations('experience')
 
   return (
     <section
@@ -23,12 +25,11 @@ function ExperiencesComponent() {
       ref={ref}
       className={experiencesStyles.sectionStyle}
     >
-      <SectionHeading>My Experience</SectionHeading>
-
+      <SectionHeading>{t('title')}</SectionHeading>
       <VerticalTimeline lineColor=''>
         {experiencesData.map((item) => (
           <VerticalTimelineElement
-            key={item.title}
+            key={item.titleKey}
             visible={inView}
             contentStyle={{
               background:
@@ -52,12 +53,14 @@ function ExperiencesComponent() {
               color: '1.5rem',
             }}
           >
-            <h3 className={experiencesStyles.h3Style}>{item.title}</h3>
+            <h3 className={experiencesStyles.h3Style}>{t(item.titleKey)}</h3>
 
-            <p className={experiencesStyles.itemLocation}>{item.location}</p>
+            <p className={experiencesStyles.itemLocation}>
+              {t(item.locationKey)}
+            </p>
 
             <p className={experiencesStyles.itemDescription}>
-              {item.description}
+              {t(item.descriptionKey)}
             </p>
           </VerticalTimelineElement>
         ))}
