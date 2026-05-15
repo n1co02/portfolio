@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "Home": "Inicio",
+    "About": "Sobre mí",
+    "Projects": "Proyectos",
+    "Skills": "Skills",
+    "Experience": "Experiencia",
+    "Contact": "Contacto"
+  },
+  "intro": {
+    "hello": "Hola, soy Nicolas.",
+    "description1": "Soy",
+    "mobileDeveloper": "desarrollador de software móvil",
+    "description2": "enfocado en",
+    "techStack": "React Native, Swift y TypeScript",
+    "description3": "Desarrollo aplicaciones móviles multiplataforma con gran interés en",
+    "interests": "arquitectura móvil, herramientas para desarrolladores y seguridad",
+    "contactButton": "Contáctame aquí",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "paragraph1": "Soy desarrollador de software móvil de Alemania con un fuerte enfoque en React Native, TypeScript y Swift. Completé mi licenciatura en Ciencias de la Computación (Ingeniería de Software) en la Universidad de Aalen y actualmente trabajo en BARMER, contribuyendo a una de las aplicaciones de salud más grandes de Alemania.",
+    "paragraph2": "Mi trabajo incluye desarrollar y mantener funcionalidades móviles multiplataforma, integrar componentes nativos de iOS con Swift, crear pruebas automatizadas con Jest y Pytest, y analizar fallos e incidentes de aplicaciones usando Sentry. También participo en gestión de dependencias, actualizaciones de software y temas relacionados con seguridad en aplicaciones móviles modernas.",
+    "paragraph3": "Antes de unirme a BARMER, trabajé como desarrollador full-stack en Heitec AG, donde contribuí a aplicaciones web internas y sistemas backend. Mi tesis de licenciatura se centró en desarrollar un generador de código Angular basado en OpenAPI para optimizar flujos de desarrollo.",
+    "paragraph4": "Disfruto trabajar en arquitecturas escalables, herramientas para desarrolladores y experiencias de usuario limpias. Además del desarrollo móvil, me interesan la arquitectura de software, los flujos de desarrollo asistidos por IA, la ingeniería de seguridad y los ecosistemas modernos de frontend.",
+    "paragraph5": "Fuera de la programación, disfruto hacer deporte, viajar y aprender idiomas. Actualmente hablo alemán, inglés y español y continúo mejorando mis habilidades lingüísticas y técnicas."
+  },
+  "projects": {
+    "digiBrain": {
+      "title": "DigiBrain",
+      "description": "Un sitio web en React para brainstorming en grupo. Incluía un sistema de inicio de sesión, CRUD, actualizaciones en tiempo real y la API de GPT. Formé parte del equipo backend usando Express.js."
+    },
+
+    "quote": {
+      "title": "Quote",
+      "description": "Un Next.js webapp para ayudar a una amiga a dejar de usar un documento Word. Incluye operaciones CRUD, diseño responsive, modo oscuro y actualizaciones en tiempo real."
+    },
+
+    "eLearning": {
+      "title": "Proyecto E-Learning",
+      "description": "Una aplicación móvil en React Native para e-learning. Incluía un modo de aprendizaje individual para vocabulario y un aula virtual donde varias personas podían aprender juntas en tiempo real."
+    },
+
+    "graveyardShooter": {
+      "title": "Graveyard Shooter",
+      "description": "Un proyecto universitario en grupo donde desarrollamos un juego VR shooter para un solo jugador con animaciones, movimiento, mecánicas de disparo y un sistema de puntuación."
+    },
+
+    "arRaceCar": {
+      "title": "AR-Race Car",
+      "description": "Una aplicación móvil AR en Unity con dos modos. Un modo utilizaba la transmisión de cámara del coche mediante TCP, mientras que el otro incluía funcionalidades de realidad aumentada."
+    },
+
+    "aelianasJourney": {
+      "title": "Aelianas Journey",
+      "description": "Un proyecto universitario en grupo donde desarrollamos un juego 2D de plataformas en Unity. Se incluyó un sistema de clasificación para añadir un aspecto competitivo."
+    },
+
+    "codeGenerator": {
+      "title": "Generador de código",
+      "description": "Tesis: una herramienta de generación de código basada en OpenAPI para optimizar flujos de desarrollo. El enfoque estuvo en generar código de definiciones de API."
+    }
+  },
+  "skills": { "title": "Tecnologías y habilidades" },
+  "experience": {
+    "title": "Mi experiencia",
+    "barmer": {
+      "title": "Desarrollador de Software Móvil",
+      "location": "Schwäbisch Gmünd, Alemania",
+      "description": "Trabajo como desarrollador de software móvil en BARMER, contribuyendo a una de las aplicaciones de salud más grandes de Alemania. Mi trabajo incluye desarrollo con React Native, integración nativa de iOS con Swift, pruebas automatizadas, gestión de dependencias, temas de seguridad y herramientas para desarrolladores."
+    },
+
+    "bachelorThesis": {
+      "title": "Tesis de Grado",
+      "location": "Crailsheim, Alemania",
+      "description": "Tesis de grado en cooperación con Heitec AG. El enfoque estuvo en optimizar flujos de desarrollo frontend mediante un generador de código Angular basado en OpenAPI."
+    },
+
+    "workingStudent": {
+      "title": "Estudiante trabajador Full-Stack",
+      "location": "Crailsheim, Alemania",
+      "description": "Trabajé como desarrollador full-stack en Heitec AG en aplicaciones internas y sistemas backend utilizando Angular, Node.js (Express), Neo4j y Docker."
+    },
+
+    "internship": {
+      "title": "Prácticas como Desarrollador Web",
+      "location": "Crailsheim, Alemania",
+      "description": "Realicé prácticas en Heitec AG trabajando en un proyecto para Daimler Truck. Me enfoqué en desarrollo backend con funcionalidades de filtrado, ordenamiento y CRUD usando C#, .NET, SQL y OpenAPI."
+    },
+
+    "university": {
+      "title": "Estudios de Ciencias de la Computación",
+      "location": "Aalen, Alemania",
+      "description": "Comencé mis estudios de Ciencias de la Computación con especialización en Ingeniería de Software en la Universidad de Aalen."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si quieres ponerte en contacto conmigo, puedes escribirme a",
+    "formHint": "o usar este formulario.",
+    "emailPlaceholder": "Tu correo electrónico",
+    "messagePlaceholder": "Tu mensaje",
+    "successToast": "¡Correo enviado correctamente!",
+    "submit": "Enviar"
+  }
+}

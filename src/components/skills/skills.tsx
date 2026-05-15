@@ -5,6 +5,7 @@ import { skillsData } from '@/lib/data'
 import { useSectionInView } from '@/lib/hooks'
 import { motion } from 'framer-motion'
 import * as skillsStyles from './skillsStyles'
+import { useTranslations } from 'next-intl'
 const fadeInAnimationVariants = {
   initial: {
     opacity: 0,
@@ -22,9 +23,10 @@ const fadeInAnimationVariants = {
 export default function Skills() {
   const { ref } = useSectionInView('Skills')
 
+  const t = useTranslations('skills')
   return (
     <section ref={ref} id='skills' className={skillsStyles.sectionStyles}>
-      <SectionHeading>My Skills</SectionHeading>
+      <SectionHeading>{t('title')}</SectionHeading>
       <ul className={skillsStyles.ulStyles}>
         {skillsData.map((skill, index) => (
           <motion.li

@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import path from 'node:path'
+import createNextIntlPlugin from 'next-intl/plugin'
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin('./i18n/request.ts')
+
+const nextConfig = {
+  turbopack: {
+    root: path.resolve(process.cwd()),
+  },
+}
+
+export default withNextIntl(nextConfig)

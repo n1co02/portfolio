@@ -1,21 +1,13 @@
-import About from '@/components/about/about'
-import Contact from '@/components/contact/contact'
-import Experiences from '@/components/experiences/experiences'
-import Intro from '@/components/intro/intro'
-import Projects from '@/components/projects/projects'
-import SectionDivider from '@/components/sectionHandler/sectionDivider/sectionDivider'
-import Skills from '@/components/skills/skills'
+import { headers } from 'next/headers'
+import { redirect } from 'next/navigation'
+import { locales } from '../../i18n/config'
 
-export default function Home() {
-  return (
-    <main className='flex flex-col items-center px-4'>
-      <Intro />
-      <SectionDivider />
-      <About />
-      <Projects />
-      <Skills />
-      <Experiences />
-      <Contact />
-    </main>
-  )
+export default async function RootPage() {
+  const acceptLanguage = (await headers()).get('accept-language') ?? ''
+
+  const locale =
+    locales.find((locale) => acceptLanguage.toLowerCase().includes(locale)) ??
+    'en'
+
+  redirect(`/${locale}`)
 }

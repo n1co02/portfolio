@@ -6,9 +6,11 @@ import { motion } from 'framer-motion'
 import SubmitBtn from './submitBtn'
 import { sendEmail } from '@/actions/sendEmail'
 import toast from 'react-hot-toast'
+import { useTranslations } from 'next-intl'
 
 export default function Contact() {
   const { ref } = useSectionInView('Contact')
+  const t = useTranslations('contact')
 
   return (
     <motion.section
@@ -28,13 +30,13 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact Me</SectionHeading>
+      <SectionHeading>{t('title')}</SectionHeading>
       <p>
-        If you want to get in touch with me, you can reach me at{' '}
+        {t('description')}{' '}
         <a className='underline' href='mailto:ostermann.n@gmx.de'>
           ostermann.n@gmx.de
         </a>{' '}
-        or through this form
+        {t('formHint')}
       </p>
       <form
         className='mt-10 flex flex-col dark:text-black'
@@ -45,7 +47,7 @@ export default function Contact() {
             return
           }
 
-          toast.success('Email sent successfully!')
+          toast.success(t('successToast'))
         }}
       >
         <input
@@ -54,12 +56,12 @@ export default function Contact() {
           type='email'
           required
           maxLength={500}
-          placeholder='Your email'
+          placeholder={t('emailPlaceholder')}
         />
         <textarea
           className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
           name='message'
-          placeholder='Your message'
+          placeholder={t('messagePlaceholder')}
           required
           maxLength={5000}
         />
