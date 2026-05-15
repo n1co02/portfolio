@@ -7,7 +7,6 @@ import { Toaster } from 'react-hot-toast'
 import Footer from '@/components/footer/footer'
 import ThemeSwitch from '@/components/themeSwitch/themeSwitch'
 import ThemeContextProvider from '@/context/themeContext'
-import Impresssum from '@/legal/impressum'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en' className='!scroll-smooth'>
+    <html lang='en' suppressHydrationWarning className='!scroll-smooth'>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 
         dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
