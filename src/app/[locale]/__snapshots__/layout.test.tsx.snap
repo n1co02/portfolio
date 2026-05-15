@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`LocaleLayout matches snapshot 1`] = `
+<div>
+  <div
+    data-testid="intl-provider"
+  >
+    <div
+      data-testid="theme-ctx"
+    >
+      <div
+        data-testid="active-section-ctx"
+      >
+        <nav
+          data-testid="header-mock"
+        />
+        <div>
+          content
+        </div>
+        <div
+          data-testid="toaster-mock"
+        />
+        <footer
+          data-testid="footer-mock"
+        />
+        <div
+          data-testid="theme-switch-mock"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

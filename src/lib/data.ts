@@ -8,6 +8,7 @@ import arRaceCar from '../../public/arRaceCar.png'
 import quotes from '../../public/quotes.png'
 import digiBrain from '../../public/digiBrain.png'
 import eLearningApp from '../../public/softwareProject.jpg'
+
 export const links = [
   {
     name: 'Home',

@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "Home": "Inicio",
+    "About": "Sobre mí",
+    "Projects": "Proyectos",
+    "Skills": "Skills",
+    "Experience": "Experiencia",
+    "Contact": "Contacto"
+  }
+}
