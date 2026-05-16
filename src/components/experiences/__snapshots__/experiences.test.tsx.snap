@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Experiences matches snapshot 1`] = `<div />`;
+exports[`Experiences matches snapshot 1`] = `
+<div>
+  <section
+    data-testid="experiences-mock"
+  />
+</div>
+`;

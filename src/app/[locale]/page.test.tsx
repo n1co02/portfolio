@@ -8,6 +8,11 @@ jest.mock('@/components/contact/contact', () => ({
   default: () => <section data-testid='contact-mock' />,
 }))
 
+jest.mock('@/components/experiences/experiences', () => ({
+  __esModule: true,
+  default: () => <section data-testid='experiences-mock' />,
+}))
+
 describe('Home', () => {
   it('matches snapshot', () => {
     const { container } = render(
