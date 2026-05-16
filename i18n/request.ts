@@ -1,5 +1,6 @@
 import { getRequestConfig } from 'next-intl/server'
-import { locales, Locale } from './config'
+import type { Locale } from './config'
+import { locales } from './config'
 
 function isLocale(value: string | undefined): value is Locale {
   return locales.includes(value as Locale)

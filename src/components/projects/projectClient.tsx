@@ -1,6 +1,6 @@
 'use client'
 import React, { useRef } from 'react'
-import { projectsData } from '@/lib/data'
+import type { projectsData } from '@/lib/data'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import * as projectStyles from './projectsStyle'
@@ -8,13 +8,7 @@ import { useTranslations } from 'next-intl'
 
 type ProjectProps = (typeof projectsData)[number]
 
-export default function Project({
-  titleKey,
-  descriptionKey,
-  tags,
-  imageUrl,
-  link,
-}: ProjectProps) {
+export default function Project({ titleKey, descriptionKey, tags, imageUrl, link }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -47,7 +41,7 @@ export default function Project({
         <Image
           className={projectStyles.imgStyle}
           src={imageUrl}
-          alt={'Project I worked on'}
+          alt='Project I worked on'
           quality={75}
         />
       </section>

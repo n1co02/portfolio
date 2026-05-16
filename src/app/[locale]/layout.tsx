@@ -6,7 +6,8 @@ import { Toaster } from 'react-hot-toast'
 import Footer from '@/components/footer/footer'
 import ThemeSwitch from '@/components/themeSwitch/themeSwitch'
 import ThemeContextProvider from '@/context/themeContext'
-import { locales, Locale } from '../../../i18n/config'
+import type { Locale } from '../../../i18n/config'
+import { locales } from '../../../i18n/config'
 
 function isLocale(value: string): value is Locale {
   return locales.includes(value as Locale)
