@@ -8,6 +8,7 @@ import ThemeSwitch from '@/components/themeSwitch/themeSwitch'
 import ThemeContextProvider from '@/context/themeContext'
 import type { Locale } from '../../../i18n/config'
 import { locales } from '../../../i18n/config'
+import LanguagePicker from '@/components/languagePicker/languagePicker'
 
 function isLocale(value: string): value is Locale {
   return locales.includes(value as Locale)
@@ -36,6 +37,7 @@ export default async function LocaleLayout({
           {children}
           <Toaster />
           <Footer />
+          <LanguagePicker />
           <ThemeSwitch />
         </ActiveSectionContextProvider>
       </ThemeContextProvider>

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`LanguagePicker matches snapshot 1`] = `
+<div>
+  <div
+    class="fixed bottom-5 right-24 z-[999] flex flex-col items-end gap-2"
+  >
+    <button
+      aria-label="Change language"
+      class="min-w-[3.5rem] h-[3rem] rounded-full bg-white bg-opacity-80 px-3 text-sm shadow-2xl backdrop-blur-[0.5rem] transition-all hover:scale-[1.15] active:scale-105 dark:bg-gray-950"
+    >
+      🇬🇧 EN
+    </button>
+  </div>
+</div>
+`;
