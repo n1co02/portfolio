@@ -1,7 +1,6 @@
 'use client'
 
 import { useTheme } from '@/context/themeContext'
-import React from 'react'
 import { BsMoon, BsSun } from 'react-icons/bs'
 import { buttonStyle } from './themeSwitchStyles'
 

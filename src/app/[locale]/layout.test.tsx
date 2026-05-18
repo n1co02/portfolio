@@ -10,8 +10,13 @@ jest.mock('next-intl', () => ({
   NextIntlClientProvider: ({ children }: { children: React.ReactNode }) => (
     <div data-testid='intl-provider'>{children}</div>
   ),
+  useLocale: () => 'en',
+  useTranslations: () => (key: string) => key,
 }))
-
+jest.mock('@/components/languagePicker/languagePicker', () => ({
+  __esModule: true,
+  default: () => <div data-testid='language-picker-mock' />,
+}))
 jest.mock('@/components/header/header', () => ({
   __esModule: true,
   default: () => <nav data-testid='header-mock' />,
@@ -70,12 +75,14 @@ describe('LocaleLayout', () => {
   })
 
   it('calls notFound for an invalid locale', async () => {
-    mockNotFound.mockImplementation(() => { throw new Error('NOT_FOUND') })
+    mockNotFound.mockImplementation(() => {
+      throw new Error('NOT_FOUND')
+    })
     await expect(renderLocaleLayout('fr')).rejects.toThrow('NOT_FOUND')
     expect(mockNotFound).toHaveBeenCalled()
   })
 
-  it.each(['en', 'de', 'es'])('renders without error for locale %s', async (locale) => {
+  it.each(['en', 'de', 'es', 'it', 'tr'])('renders without error for locale %s', async (locale) => {
     await expect(renderLocaleLayout(locale)).resolves.toBeDefined()
   })
 
