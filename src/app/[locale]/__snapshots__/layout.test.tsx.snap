@@ -24,6 +24,9 @@ exports[`LocaleLayout matches snapshot 1`] = `
           data-testid="footer-mock"
         />
         <div
+          data-testid="language-picker-mock"
+        />
+        <div
           data-testid="theme-switch-mock"
         />
       </div>
