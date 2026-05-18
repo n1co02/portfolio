@@ -18,7 +18,7 @@ exports[`Project matches snapshot 1`] = `
           digiBrain.title
         </h3>
         <p
-          class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+          class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
         >
           digiBrain.description
         </p>
@@ -26,32 +26,32 @@ exports[`Project matches snapshot 1`] = `
           class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
         >
           <li
-            class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+            class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
           >
             Node.js
           </li>
           <li
-            class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+            class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
           >
             Express
           </li>
           <li
-            class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+            class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
           >
             Typescript
           </li>
           <li
-            class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+            class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
           >
             MongoDB
           </li>
           <li
-            class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+            class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
           >
             SQLite
           </li>
           <li
-            class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+            class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
           >
             Prisma
           </li>

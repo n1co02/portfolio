@@ -123,8 +123,10 @@ exports[`Intro matches snapshot 1`] = `
         </svg>
       </a>
       <a
+        aria-label="LinkedIn profile"
         class="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         href="https://www.linkedin.com/in/nicolas-ostermann-3931701b6/"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <svg
@@ -142,8 +144,10 @@ exports[`Intro matches snapshot 1`] = `
         </svg>
       </a>
       <a
+        aria-label="GitHub profile"
         class="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         href="https://github.com/n1co02"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <svg

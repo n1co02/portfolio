@@ -103,5 +103,9 @@
     "messagePlaceholder": "Deine Nachricht",
     "successToast": "E-Mail erfolgreich gesendet!",
     "submit": "Absenden"
+  },
+  "themeSwitch": {
+    "switchToDark": "Zum Dunkelmodus wechseln",
+    "switchToLight": "Zum Hellmodus wechseln"
   }
 }
