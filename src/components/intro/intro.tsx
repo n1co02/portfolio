@@ -55,15 +55,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className={introStyles.boldSpanStyle}>{t('hello')}</span>{' '}
-        {t('description1')}{' '}
-        <span className={introStyles.boldSpanStyle}>
-          {t('mobileDeveloper')}
-        </span>{' '}
-        {t('description2')}{' '}
-        <span className={introStyles.italicSpanStyle}>{t('techStack')}</span>.{' '}
-        {t('description3')}{' '}
-        <span className={introStyles.underlineSpanStyle}>{t('interests')}</span>
+        <span className={introStyles.boldSpanStyle}>{t('hello')}</span> {t('description1')}{' '}
+        <span className={introStyles.boldSpanStyle}>{t('mobileDeveloper')}</span>{' '}
+        {t('description2')} <span className={introStyles.italicSpanStyle}>{t('techStack')}</span>.{' '}
+        {t('description3')} <span className={introStyles.underlineSpanStyle}>{t('interests')}</span>
         .
       </motion.h1>
       <motion.div
@@ -91,6 +86,8 @@ export default function Intro() {
           className={introStyles.linkedinAnchorStyle}
           href='https://www.linkedin.com/in/nicolas-ostermann-3931701b6/'
           target='_blank'
+          rel='noopener noreferrer'
+          aria-label='LinkedIn profile'
         >
           <BsLinkedin />
         </a>
@@ -98,6 +95,8 @@ export default function Intro() {
           className={introStyles.githubAnchorStyle}
           href='https://github.com/n1co02'
           target='_blank'
+          rel='noopener noreferrer'
+          aria-label='GitHub profile'
         >
           <FaGithubSquare />
         </a>

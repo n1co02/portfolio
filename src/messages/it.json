@@ -95,5 +95,9 @@
     "messagePlaceholder": "Il tuo messaggio",
     "successToast": "Email inviata con successo!",
     "submit": "Invia"
+  },
+  "themeSwitch": {
+    "switchToDark": "Passa alla modalità scura",
+    "switchToLight": "Passa alla modalità chiara"
   }
 }

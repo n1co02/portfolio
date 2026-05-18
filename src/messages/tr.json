@@ -100,7 +100,6 @@
       "description": "Hochschule Aalen’de Yazılım Mühendisliği odaklı Bilgisayar Bilimi eğitimine başladım."
     }
   },
-
   "contact": {
     "title": "İletişim",
     "description": "Benimle iletişime geçmek istersen bana şu adresten ulaşabilirsin:",
@@ -109,5 +108,9 @@
     "messagePlaceholder": "Mesajın",
     "successToast": "E-posta başarıyla gönderildi!",
     "submit": "Gönder"
+  },
+  "themeSwitch": {
+    "switchToDark": "Karanlık moda geç",
+    "switchToLight": "Aydınlık moda geç"
   }
 }
