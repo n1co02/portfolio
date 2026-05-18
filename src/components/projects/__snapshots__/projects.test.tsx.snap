@@ -28,7 +28,7 @@ exports[`Projects matches snapshot 1`] = `
               digiBrain.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               digiBrain.description
             </p>
@@ -36,32 +36,32 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Node.js
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Express
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Typescript
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 MongoDB
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 SQLite
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Prisma
               </li>
@@ -97,7 +97,7 @@ exports[`Projects matches snapshot 1`] = `
               quote.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               quote.description
             </p>
@@ -105,32 +105,32 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Next.js
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 React
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Typescript
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Tailwind
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Redux
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Firebase
               </li>
@@ -166,7 +166,7 @@ exports[`Projects matches snapshot 1`] = `
               eLearning.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               eLearning.description
             </p>
@@ -174,22 +174,22 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 React Native
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Expo
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Typescript
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Firebase
               </li>
@@ -225,7 +225,7 @@ exports[`Projects matches snapshot 1`] = `
               graveyardShooter.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               graveyardShooter.description
             </p>
@@ -233,22 +233,22 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Unity
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 C#
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Blender
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 VR
               </li>
@@ -284,7 +284,7 @@ exports[`Projects matches snapshot 1`] = `
               arRaceCar.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               arRaceCar.description
             </p>
@@ -292,22 +292,22 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Unity
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 C#
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 AR
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 TCP
               </li>
@@ -343,7 +343,7 @@ exports[`Projects matches snapshot 1`] = `
               aelianasJourney.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               aelianasJourney.description
             </p>
@@ -351,22 +351,22 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Unity
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 C#
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Firebase
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 2D
               </li>
@@ -402,7 +402,7 @@ exports[`Projects matches snapshot 1`] = `
               codeGenerator.title
             </h3>
             <p
-              class="mt-2 leading-relaxed text-gray-700 dark:text-white/70"
+              class="mt-2 leading-relaxed text-black-700 dark:text-white/70"
             >
               codeGenerator.description
             </p>
@@ -410,22 +410,22 @@ exports[`Projects matches snapshot 1`] = `
               class="flex flex-wrap mt-4 gap-2 sm:mt-auto"
             >
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 TypeScript
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Angular
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 Node.js
               </li>
               <li
-                class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-white/10 dark:text-white/70"
+                class="bg-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:bg-gray-700 dark:text-gray-100"
               >
                 OpenAPI
               </li>
